@@ -55603,7 +55603,7 @@ J.fc(m,"Platform","Web")
 if(a!=null)J.Vs(m,a)
 l=A.a3A(null,null,null,m,null,null,null,null,null,null,null,null,null,null,null,null)
 s=7
-return A.q(n.a.Ta(0,"https://jpsb-qa1.ticketsimply.co.in  /"+c,l,b,i),$async$qQ)
+return A.q(n.a.Ta(0,"https://jpsb-qa1.ticketsimply.co.in/"+c,l,b,i),$async$qQ)
 case 7:k=e
 m=t.a.a(k.a)
 q=m
@@ -55642,7 +55642,7 @@ j=k.a
 i=g
 m=A.a3A(k.f,f,k.z,i,k.ay,k.Q,j,k.as,k.c,k.x,k.e,k.at,k.ax,k.r,k.d,k.w)
 s=7
-return A.q(n.a.Ta(0,"https://jpsb-qa1.ticketsimply.co.in  /"+b,m,a,t.z),$async$mx)
+return A.q(n.a.Ta(0,"https://jpsb-qa1.ticketsimply.co.in/"+b,m,a,t.z),$async$mx)
 case 7:l=a0
 k=l.a
 q=k
@@ -55676,7 +55676,7 @@ J.fc(m,"Platform","Web")
 if(b!=null)J.Vs(m,b)
 l=A.a3A(null,null,null,m,null,null,null,null,null,null,null,null,null,null,null,null)
 s=7
-return A.q(n.a.a8q("https://jpsb-qa1.ticketsimply.co.in  /"+d,a,l,c,j),$async$ww)
+return A.q(n.a.a8q("https://jpsb-qa1.ticketsimply.co.in/"+d,a,l,c,j),$async$ww)
 case 7:k=f
 m=t.a.a(k.a)
 q=m
@@ -62132,7 +62132,7 @@ q=s.f
 if(q==="About Us"||q==="Privacy Policy")s.d.aKd('    <html>\n      <head>\n        <meta name="viewport" content="width=device-width, initial-scale=1.0">\n        <style>\n          body {\n            font-size: 0.9em; /* Increase font size */\n            color: #000000;\n            font-family: Arial, sans-serif;\n            line-height: 1.3;\n          }\n        </style>\n      </head>\n      <body>\n        '+A.e(r)+"\n      </body>\n    </html>\n  ")
 s=p.a
 if(s.f==="Terms and Conditions"){s=J.am(s.e)
-p.a.d.a7B(A.cm("https://jpsb-qa1.ticketsimply.co.in  /"+s,0,null))}p.a.d.U9(A.bmc(new A.b4E(p),new A.b4F(p),new A.b4G(p),null))},
+p.a.d.a7B(A.cm("https://jpsb-qa1.ticketsimply.co.in/"+s,0,null))}p.a.d.U9(A.bmc(new A.b4E(p),new A.b4F(p),new A.b4G(p),null))},
 J(a){var s=A.a([A.boK(this.a.d)],t.p),r=this.x
 if(r<100)s.push(A.blE(null,r/100))
 return A.fY(B.b4,s,B.F,B.aS,null)}}
