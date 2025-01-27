@@ -1,5 +1,65 @@
+<!DOCTYPE html>
 <html>
-<head> <title> Shubham </title> </head>
-<body> 
-Hi this is shubham </body>
+<head>
+    <!--
+      If you are serving your web app in a path other than the root, change the
+      href value below to reflect the base path you are serving from.
+
+      The path provided below has to start and end with a slash "/" in order for
+      it to work correctly.
+
+      For more details:
+      * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+      This is a placeholder for base href that will be replaced by the value of
+      the `--base-href` argument provided to `flutter build`.
+    -->
+    <base href="/">
+
+    <meta charset="UTF-8">
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+    <meta name="description" content="A new Flutter project.">
+
+    <!-- iOS meta tags & icons -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="first_flutter_project">
+    <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png"/>
+
+    <title>first_flutter_project</title>
+    <link rel="manifest" href="manifest.json">
+
+
+    <head>
+        <script src="https://www.gstatic.com/firebasejs/9.17.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/9.17.1/firebase-analytics.js"></script>
+        <script>
+            const firebaseConfig = {
+         apiKey: "AIzaSyCjbErfIeBjnhp7jzOmbQcEi9ItuInT5Oo",
+         authDomain: "flutterfirebaseproject-192f4.firebaseapp.com",
+         projectId: "flutterfirebaseproject-192f4",
+         storageBucket: "flutterfirebaseproject-192f4.firebasestorage.app",
+         messagingSenderId: "463610780561",
+         appId: "1:463610780561:web:2f8db680fd846b4656d830",
+         measurementId: "G-QW5DQXDT0M"
+       };
+          firebase.initializeApp(firebaseConfig);
+           firebase.analytics();
+        </script>
+
+        <head>
+            <!-- ... -->
+            <script type="application/javascript" src="/assets/packages/flutter_inappwebview/assets/web/web_support.js" defer></script>
+            <!-- ... -->
+        </head>
+    </head>
+
+</head>
+<body>
+
+<script src="flutter_bootstrap.js" async></script>
+</body>
 </html>
