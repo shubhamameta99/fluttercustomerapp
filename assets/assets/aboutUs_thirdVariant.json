@@ -1,0 +1,880 @@
+{
+  "type": "Column",
+  "mainAxisAlignment": "start",
+  "mainAxisSize": "max",
+  "children": [
+    {
+      "type": "Column",
+      "alignment": "topCenter",
+      "crossAxisAlignment": "center",
+      "children": [
+        {
+          "type": "Image",
+          "url": "https://ik.imagekit.io/jlqtebhzy/Frame%201410115839.png?updatedAt=1759992088341",
+          "fit": "cover",
+          "width": "match_parent",
+          "height": 300
+        },
+        {
+          "type": "SizedBox",
+          "height": 20
+        },
+        {
+          "type": "Text",
+          "value": "ABOUT US",
+          "padding": {
+            "left": 30,
+            "right": 36,
+            "top": 10,
+            "bottom": 10
+          },
+          "style": {
+            "fontSize": 22,
+            "fontWeight": "bold",
+            "color": "#202124"
+          }
+        },
+        {
+
+
+          "type": "Text",
+          "value": "See how we go an extra mile to give you best experience",
+          "padding": {
+            "left": 30,
+            "right": 30,
+            "bottom": 10
+          },
+          "style": {
+            "fontSize": 16,
+            "color": "#FF573C"
+          }
+        }
+      ]
+    },
+    {
+      "type": "Column",
+      "alignment": "topCenter",
+      "children": [
+
+        {
+          "type": "Image",
+          "url": "https://ik.imagekit.io/jlqtebhzy/bg.jpg?updatedAt=1759912805568",
+          "fit": "cover",
+          "width": "match_parent",
+          "height": 300
+        },
+        {
+          "type": "SizedBox",
+          "height": 10
+        },
+        {
+
+
+          "type": "Text",
+          "value": "Who We Are?",
+          "padding": {
+            "left": 30,
+            "right": 36,
+            "top": 20,
+            "bottom": 10
+          },
+          "style": {
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "color": "#202124"
+          }
+        },
+        {
+          "type": "Text",
+          "value": "We are a leading bus service provider committed to delivering safe, reliable, and comfortable travel experiences. With a fleet of modern buses and a focus on customer satisfaction, we ensure seamless journeys to a variety of destinations, offering convenient schedules and affordable options for all our passengers.",
+          "padding": {
+            "left": 30,
+            "right": 36,
+            "top": 10,
+            "bottom": 10
+          },
+          "style": {
+            "fontSize": 16,
+            "color": "#323841"
+          }
+        },
+        {
+          "type": "Image",
+          "url": "https://ik.imagekit.io/jlqtebhzy/bg.jpg?updatedAt=1759912805568",
+          "fit": "cover",
+          "width": "match_parent",
+          "height": 300
+        },
+        {
+          "type": "SizedBox",
+          "height": 10
+        },
+        {
+          "type": "Text",
+          "value": "Our Vision",
+          "padding": {
+            "left": 30,
+            "right": 36,
+            "top": 20,
+            "bottom": 10
+          },
+          "style": {
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "color": "#202124"
+          }
+        },
+        {
+          "type": "SizedBox",
+          "height": 10
+        },
+        {
+          "type": "Text",
+          "value": "We are a leading bus service provider committed to delivering safe, reliable, and comfortable travel experiences. With a fleet of modern buses and a focus on customer satisfaction, we ensure seamless journeys to a variety of destinations, offering convenient schedules and affordable options for all our passengers.",
+          "padding": {
+            "left": 30,
+            "right": 36,
+            "top": 20,
+            "bottom": 10
+          },
+          "style": {
+            "fontSize": 16,
+            "color": "#323841"
+          }
+        }
+      ]
+    },
+    {
+      "type": "Padding",
+      "padding": 20,
+      "child": {
+        "type": "Container",
+        "padding": 20,
+        "decoration": {
+          "color": "#FF3C28",
+          "borderRadius": 10
+        },
+        "child": {
+          "type": "Column",
+          "crossAxisAlignment": "center",
+          "children": [
+            {
+              "type": "Text",
+              "value": "Key Facts & Figures",
+              "style": {
+                "fontSize": 20,
+                "fontWeight": "bold",
+                "color": "#FFFFFF"
+              }
+            },
+            {
+              "type": "SizedBox",
+              "height": 16
+            },
+            {
+              "type": "Column",
+              "children": [
+                {
+                  "type": "Container",
+                  "padding": 12,
+                  "margin": {
+                    "bottom": 8
+                  },
+                  "decoration": {
+                    "color": "#FFFFFF",
+                    "borderRadius": 12
+                  },
+                  "child": {
+                    "type": "Row",
+                    "crossAxisAlignment": "center",
+                    "children": [
+                      {
+                        "type": "SizedBox",
+                        "width": 18
+                      },
+                      {
+                        "type": "Image",
+                        "url": "https://ik.imagekit.io/jlqtebhzy/Vector.png?updatedAt=1759169402331",
+                        "width": 25,
+                        "height": 25
+                      },
+                      {
+                        "type": "SizedBox",
+                        "width": 24
+                      },
+                      {
+                        "type": "Expanded",
+                        "child": {
+                          "type": "Column",
+                          "crossAxisAlignment": "start",
+                          "children": [
+                            {
+                              "type": "Text",
+                              "value": "40+",
+                              "style": {
+                                "fontWeight": "bold",
+                                "fontSize": 14
+                              }
+                            },
+                            {
+                              "type": "Text",
+                              "value": "Cities",
+                              "style": {
+                                "fontSize": 14,
+                                "color": "#5F6772"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "Container",
+                  "padding": 12,
+                  "margin": {
+                    "bottom": 8
+                  },
+                  "decoration": {
+                    "color": "#FFFFFF",
+                    "borderRadius": 12
+                  },
+                  "child": {
+                    "type": "Row",
+                    "crossAxisAlignment": "center",
+                    "children": [
+                      {
+                        "type": "SizedBox",
+                        "width": 18
+                      },
+                      {
+                        "type": "Image",
+                        "url": "https://ik.imagekit.io/jlqtebhzy/bus.png?updatedAt=1759167815890",
+                        "width": 25,
+                        "height": 25
+                      },
+                      {
+                        "type": "SizedBox",
+                        "width": 24
+                      },
+                      {
+                        "type": "Expanded",
+                        "child": {
+                          "type": "Column",
+                          "crossAxisAlignment": "start",
+                          "children": [
+                            {
+                              "type": "Text",
+                              "value": "250+",
+                              "style": {
+                                "fontWeight": "bold",
+                                "fontSize": 14
+                              }
+                            },
+                            {
+                              "type": "Text",
+                              "value": "Buses on the road",
+                              "style": {
+                                "fontSize": 14,
+                                "color": "#5F6772"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "Container",
+                  "padding": 12,
+                  "margin": {
+                    "bottom": 8
+                  },
+                  "decoration": {
+                    "color": "#FFFFFF",
+                    "borderRadius": 12
+                  },
+                  "child": {
+                    "type": "Row",
+                    "crossAxisAlignment": "center",
+                    "children": [
+                      {
+                        "type": "SizedBox",
+                        "width": 18
+                      },
+                      {
+                        "type": "Image",
+                        "url": "https://ik.imagekit.io/jlqtebhzy/location.png?updatedAt=1759169102180",
+                        "width": 25,
+                        "height": 25
+                      },
+                      {
+                        "type": "SizedBox",
+                        "width": 24
+                      },
+                      {
+                        "type": "Expanded",
+                        "child": {
+                          "type": "Column",
+                          "crossAxisAlignment": "start",
+                          "children": [
+                            {
+                              "type": "Text",
+                              "value": "500+",
+                              "style": {
+                                "fontWeight": "bold",
+                                "fontSize": 14
+                              }
+                            },
+                            {
+                              "type": "Text",
+                              "value": "Destinations",
+                              "style": {
+                                "fontSize": 14,
+                                "color": "#5F6772"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "Container",
+                  "padding": 12,
+                  "margin": {
+                    "bottom": 8
+                  },
+                  "decoration": {
+                    "color": "#FFFFFF",
+                    "borderRadius": 12
+                  },
+                  "child": {
+                    "type": "Row",
+                    "crossAxisAlignment": "center",
+                    "children": [
+                      {
+                        "type": "SizedBox",
+                        "width": 18
+                      },
+                      {
+                        "type": "Image",
+                        "url": "https://ik.imagekit.io/jlqtebhzy/office.png?updatedAt=1759168911003",
+                        "width": 25,
+                        "height": 25
+                      },
+                      {
+                        "type": "SizedBox",
+                        "width": 24
+                      },
+                      {
+                        "type": "Expanded",
+                        "child": {
+                          "type": "Column",
+                          "crossAxisAlignment": "start",
+                          "children": [
+                            {
+                              "type": "Text",
+                              "value": "20+",
+                              "style": {
+                                "fontWeight": "bold",
+                                "fontSize": 14
+                              }
+                            },
+                            {
+                              "type": "Text",
+                              "value": "Offices",
+                              "style": {
+                                "fontSize": 14,
+                                "color": "#5F6772"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "Container",
+                  "padding": 12,
+                  "margin": {
+                    "bottom": 8
+                  },
+                  "decoration": {
+                    "color": "#FFFFFF",
+                    "borderRadius": 12
+                  },
+                  "child": {
+                    "type": "Row",
+                    "crossAxisAlignment": "center",
+                    "children": [
+                      {
+                        "type": "SizedBox",
+                        "width": 18
+                      },
+                      {
+                        "type": "Image",
+                        "url": "https://ik.imagekit.io/jlqtebhzy/employees.png?updatedAt=1759168987986",
+                        "width": 25,
+                        "height": 25
+                      },
+                      {
+                        "type": "SizedBox",
+                        "width": 24
+                      },
+                      {
+                        "type": "Expanded",
+                        "child": {
+                          "type": "Column",
+                          "crossAxisAlignment": "start",
+                          "children": [
+                            {
+                              "type": "Text",
+                              "value": "900+",
+                              "style": {
+                                "fontWeight": "bold",
+                                "fontSize": 14
+                              }
+                            },
+                            {
+                              "type": "Text",
+                              "value": "Employees",
+                              "style": {
+                                "fontSize": 14,
+                                "color": "#5F6772"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "SizedBox",
+                  "height": 16
+                }
+
+              ]
+            }
+
+          ]
+        }}},
+    {
+      "type": "Column",
+      "alignment": "topCenter",
+      "crossAxisAlignment": "center",
+      "children": [
+        {
+          "type": "Text",
+          "value": "Management Team",
+          "padding": {
+            "left": 30,
+            "right": 36,
+            "top": 10,
+            "bottom": 10
+          },
+          "style": {
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "color": "#202124"
+          }
+        },
+        {
+          "type": "Image",
+          "url": "https://ik.imagekit.io/jlqtebhzy/Gokarna.png?updatedAt=1759169980076",
+          "fit": "cover",
+          "width": 100,
+          "height": 100,
+          "borderRadius": 500
+        },
+        {
+          "type": "SizedBox",
+          "height": 20
+        },
+        {
+          "type": "Text",
+          "value": "Rahul S",
+          "padding": {
+            "left": 30,
+            "right": 36,
+            "top": 5,
+            "bottom": 5
+          },
+          "style": {
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "color": "#202124"
+          }
+        },
+        {
+          "type": "Text",
+          "value": "MD and Chief Executive officer",
+          "padding": {
+            "left": 30,
+            "right": 36,
+            "top": 5,
+            "bottom": 10
+          },
+          "style": {
+            "fontSize": 16,
+            "color": "#323841"
+          }
+        },
+        {
+          "type": "Image",
+          "url": "https://ik.imagekit.io/jlqtebhzy/cto.jpg?updatedAt=1759920754063",
+          "fit": "cover",
+          "width": 100,
+          "height": 100,
+          "borderRadius": 500
+        },
+        {
+          "type": "SizedBox",
+          "height": 20
+        },
+        {
+          "type": "Text",
+          "value": "Mohan Kumar",
+          "padding": {
+            "left": 30,
+            "right": 36,
+            "top": 5,
+            "bottom": 5
+          },
+          "style": {
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "color": "#202124"
+          }
+        },
+        {
+          "type": "Text",
+          "value": "Director",
+          "padding": {
+            "left": 30,
+            "right": 36,
+            "top": 5,
+            "bottom": 10
+          },
+          "style": {
+            "fontSize": 16,
+            "color": "#323841"
+          }
+        },
+        {
+          "type": "Image",
+          "url":"https://ik.imagekit.io/jlqtebhzy/ceo.jpg?updatedAt=1760004834273",
+          "fit": "cover",
+          "width": 100,
+          "height": 100,
+          "borderRadius": 500
+        },
+        {
+          "type": "SizedBox",
+          "height": 20
+        },
+        {
+          "type": "Text",
+          "value": "Viraj Kumar",
+          "padding": {
+            "left": 30,
+            "right": 36,
+            "top": 5,
+            "bottom": 5
+          },
+          "style": {
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "color": "#202124"
+          }
+        },
+        {
+          "type": "Text",
+          "value": "CEO",
+          "padding": {
+            "left": 30,
+            "right": 36,
+            "top": 5,
+            "bottom": 10
+          },
+          "style": {
+            "fontSize": 16,
+            "color": "#323841"
+          }
+        },
+        {
+          "type": "Image",
+          "url":"https://ik.imagekit.io/jlqtebhzy/chief.jpg?updatedAt=1760004834201",
+          "fit": "cover",
+          "width": 100,
+          "height": 100,
+          "borderRadius": 500
+        },
+        {
+          "type": "SizedBox",
+          "height": 20
+        },
+        {
+          "type": "Text",
+          "value": "Riya Kapoor",
+          "padding": {
+            "left": 30,
+            "right": 36,
+            "top": 5,
+            "bottom": 5
+          },
+          "style": {
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "color": "#202124"
+          }
+        },
+        {
+          "type": "Text",
+          "value": "Chief People Officer",
+          "padding": {
+            "left": 30,
+            "right": 36,
+            "top": 5,
+            "bottom": 10
+          },
+          "style": {
+            "fontSize": 16,
+            "color": "#323841"
+          }
+        },
+        {
+          "type": "Stack",
+          "crossAxisAlignment": "center",
+
+          "children": [
+            {
+              "type": "Image",
+              "url": "https://ik.imagekit.io/jlqtebhzy/slider1.jpg?updatedAt=1759312429428",
+              "fit": "cover",
+              "width": "match_parent",
+              "height": 350
+            },
+
+            {
+              "type": "Text",
+              "value": "Photo Gallery",
+              "padding": {
+                "left": 30,
+                "right": 36,
+                "bottom": 10,
+                "top": 20
+              },
+              "style": {
+                "fontSize": 20,
+                "fontWeight": "bold",
+                "color": "#FFFFFF"
+              }
+            },
+            {
+              "type": "SizedBox",
+              "height": 50
+            },
+
+            {
+              "type": "Text",
+              "value": "extra mile to give you best experience",
+              "padding": {
+                "left": 30,
+                "right": 36,
+                "bottom": 20,
+                "top": 60
+              },
+              "style": {
+                "fontSize": 20,
+                "fontWeight": "bold",
+                "color": "#FFFFFF"
+              }
+            }
+          ]
+        },
+        {
+          "type": "SizedBox",
+          "height": 20
+        },
+        {
+          "type": "Stack",
+          "crossAxisAlignment": "center",
+          "children": [
+            {
+              "type": "Image",
+              "url": "https://ik.imagekit.io/jlqtebhzy/about.jpg?updatedAt=1760013943701",
+              "fit": "cover",
+              "width": "match_parent",
+              "height": 300
+            },
+            {
+              "type": "Column",
+              "crossAxisAlignment": "center",
+              "children": [
+                {
+                  "type": "Text",
+                  "value": "Key Facts & Figures",
+                  "fontWeight": "bold",
+                  "fontSize": 20,
+                  "textAlign": "center",
+                  "color": "#ffffff"
+                },
+                {
+                  "type": "Row",
+                  "mainAxisAlignment": "center",
+                  "width": "",
+                  "height": 300,
+                  "children": [
+                    {
+                      "type": "Card",
+                      "child": {
+                        "type": "Column",
+                        "children": [
+                          {
+                            "type": "Icon",
+                            "name": "business",
+                            "size": 40,
+                            "color": "#ffffff"
+                          },
+                          {
+                            "type": "Text",
+                            "text": "40+",
+                            "fontSize": 24,
+                            "color": "#ffffff"
+                          },
+                          {
+                            "type": "Text",
+                            "text": "Cities",
+                            "fontSize": 16,
+                            "color": "#ffffff"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "type": "Card",
+                      "child": {
+                        "type": "Column",
+                        "children": [
+                          {
+                            "type": "Icon",
+                            "name": "directions_bus",
+                            "size": 40,
+                            "color": "#ffffff"
+                          },
+                          {
+                            "type": "Text",
+                            "text": "250+",
+                            "fontSize": 24,
+                            "color": "#ffffff"
+                          },
+                          {
+                            "type": "Text",
+                            "text": "Buses on the road",
+                            "fontSize": 16,
+                            "color": "#ffffff"
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "Row",
+                  "mainAxisAlignment": "center",
+                  "children": [
+                    {
+                      "type": "Card",
+                      "child": {
+                        "type": "Column",
+                        "children": [
+                          {
+                            "type": "Icon",
+                            "name": "location_on",
+                            "size": 40,
+                            "color": "#ffffff"
+                          },
+                          {
+                            "type": "Text",
+                            "text": "500+",
+                            "fontSize": 24,
+                            "color": "#ffffff"
+                          },
+                          {
+                            "type": "Text",
+                            "text": "Destinations",
+                            "fontSize": 16,
+                            "color": "#ffffff"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "type": "Card",
+                      "child": {
+                        "type": "Column",
+                        "children": [
+                          {
+                            "type": "Icon",
+                            "name": "business_center",
+                            "size": 40,
+                            "color": "#ffffff"
+                          },
+                          {
+                            "type": "Text",
+                            "text": "20+",
+                            "fontSize": 24,
+                            "color": "#ffffff"
+                          },
+                          {
+                            "type": "Text",
+                            "text": "Offices",
+                            "fontSize": 16,
+                            "color": "#ffffff"
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "Card",
+                  "child": {
+                    "type": "Column",
+                    "children": [
+                      {
+                        "type": "Icon",
+                        "name": "people",
+                        "size": 40,
+                        "color": "#ffffff"
+                      },
+                      {
+                        "type": "Text",
+                        "text": "900+",
+                        "fontSize": 24,
+                        "color": "#ffffff"
+                      },
+                      {
+                        "type": "Text",
+                        "text": "Employees",
+                        "fontSize": 16,
+                        "color": "#ffffff"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+
+      ]
+    }
+  ]
+}

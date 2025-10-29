@@ -1,0 +1,320 @@
+{
+  "type": "Column",
+  "crossAxisAlignment": "center",
+  "children": [
+    {
+      "type": "Text",
+      "value": "Making your bus\njourney better",
+      "textAlign": "center",
+      "style": {
+        "fontSize": 24,
+        "fontWeight": "bold",
+        "fontStyle": "normal",
+        "color": "#000000",
+        "letterSpacing": 1.2,
+        "wordSpacing": 2
+      }
+    },
+    {
+      "type": "Text",
+      "value": "Check out our bus amenities",
+      "textAlign": "center",
+      "style": {
+        "fontSize": 16,
+        "fontWeight": "normal",
+        "fontStyle": "normal",
+        "color": "#FF573C",
+        "letterSpacing": 1.2,
+        "wordSpacing": 2
+      }
+    },
+    {
+      "type": "Padding",
+      "padding": {
+        "left": 50,
+        "right": 50,
+        "top": 20,
+        "bottom": 20
+      },
+      "child": {
+        "type": "Column",
+        "mainAxisAlignment": "center",
+        "crossAxisAlignment": "center",
+        "children": [
+          {
+            "type": "Container",
+            "width": "match_parent",
+            "margin": {
+              "bottom": 20
+            },
+            "color": "#FFFFFF",
+            "borderRadius": 15,
+            "borderColor": "#CACED3",
+            "borderWidth": 1,
+            "child": {
+              "type": "Padding",
+              "padding": {
+                "top": 24,
+                "bottom": 24,
+                "left": 12,
+                "right": 12
+              },
+              "child": {
+                "type": "Column",
+                "mainAxisAlignment": "center",
+                "crossAxisAlignment": "center",
+                "mainAxisSize": "min",
+                "children": [
+                  {
+                    "type": "Image",
+                    "url": "https://ik.imagekit.io/ekpuecrvih/real-time%201.png?updatedAt=1752753485241",
+                    "height": 40,
+                    "width": 40
+                  },
+                  {
+                    "type": "SizedBox",
+                    "width": 12
+                  },
+                  {
+                    "type": "Text",
+                    "value": "Charging Points",
+                    "textAlign": "center",
+                    "overflow": "ellipsis",
+                    "maxLines": 2,
+                    "softWrap": true,
+                    "style": {
+                      "fontSize": 14,
+                      "fontWeight": "w600",
+                      "color": "#000000",
+                      "letterSpacing": 0.2,
+                      "height": 1.3
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "type": "Container",
+            "width": "match_parent",
+            "margin": {
+              "bottom": 20
+            },
+            "decoration": {
+              "color": "#FFFFFF",
+              "borderRadius": 15,
+              "borderColor": "#CACED3",
+              "borderWidth": 1
+            },
+            "child": {
+              "type": "Padding",
+              "padding": {
+                "top": 24,
+                "bottom": 24,
+                "left": 12,
+                "right": 12
+              },
+              "child": {
+                "type": "Column",
+                "mainAxisAlignment": "center",
+                "crossAxisAlignment": "center",
+                "mainAxisSize": "min",
+                "children": [
+                  {
+                    "type": "Image",
+                    "url": "https://ik.imagekit.io/ekpuecrvih/real-time%201.png?updatedAt=1752753485241",
+                    "height": 40,
+                    "width": 40
+                  },
+                  {
+                    "type": "SizedBox",
+                    "width": 12
+                  },
+                  {
+                    "type": "Text",
+                    "value": "Luggage Safety",
+                    "textAlign": "center",
+                    "overflow": "ellipsis",
+                    "maxLines": 2,
+                    "softWrap": true,
+                    "style": {
+                      "fontSize": 14,
+                      "fontWeight": "w600",
+                      "color": "#000000",
+                      "letterSpacing": 0.2,
+                      "height": 1.3
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "type": "Container",
+            "width": "match_parent",
+            "decoration": {
+              "color": "#FFFFFF",
+              "borderRadius": 15,
+              "borderColor": "#CACED3",
+              "borderWidth": 1
+            },
+            "child": {
+              "type": "Padding",
+              "padding": {
+                "top": 24,
+                "bottom": 24,
+                "left": 12,
+                "right": 12
+              },
+              "child": {
+                "type": "Column",
+                "mainAxisAlignment": "center",
+                "crossAxisAlignment": "center",
+                "mainAxisSize": "min",
+                "children": [
+                  {
+                    "type": "Image",
+                    "url": "https://ik.imagekit.io/ekpuecrvih/real-time%201.png?updatedAt=1752753485241",
+                    "height": 40,
+                    "width": 40
+                  },
+                  {
+                    "type": "SizedBox",
+                    "width": 12
+                  },
+                  {
+                    "type": "Text",
+                    "value": "Live Bus Tracking",
+                    "textAlign": "center",
+                    "overflow": "ellipsis",
+                    "maxLines": 2,
+                    "softWrap": true,
+                    "style": {
+                      "fontSize": 14,
+                      "fontWeight": "w600",
+                      "color": "#000000",
+                      "letterSpacing": 0.2,
+                      "height": 1.3
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "type": "SizedBox",
+            "height": 12
+          },
+          {
+            "type": "Container",
+            "width": "match_parent",
+            "decoration": {
+              "color": "#FFFFFF",
+              "borderRadius": 15,
+              "borderColor": "#CACED3",
+              "borderWidth": 1
+            },
+            "child": {
+              "type": "Padding",
+              "padding": {
+                "top": 24,
+                "bottom": 24,
+                "left": 12,
+                "right": 12
+              },
+              "child": {
+                "type": "Column",
+                "mainAxisAlignment": "center",
+                "crossAxisAlignment": "center",
+                "mainAxisSize": "min",
+                "children": [
+                  {
+                    "type": "Image",
+                    "url": "https://ik.imagekit.io/ekpuecrvih/real-time%201.png?updatedAt=1752753485241",
+                    "height": 40,
+                    "width": 40
+                  },
+                  {
+                    "type": "SizedBox",
+                    "width": 12
+                  },
+                  {
+                    "type": "Text",
+                    "value": "BackUp Drivers",
+                    "textAlign": "center",
+                    "overflow": "ellipsis",
+                    "maxLines": 2,
+                    "softWrap": true,
+                    "style": {
+                      "fontSize": 14,
+                      "fontWeight": "w600",
+                      "color": "#000000",
+                      "letterSpacing": 0.2,
+                      "height": 1.3
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "type": "SizedBox",
+            "height": 12
+          },
+          {
+            "type": "Container",
+            "width": "match_parent",
+            "decoration": {
+              "color": "#FFFFFF",
+              "borderRadius": 15,
+              "borderColor": "#CACED3",
+              "borderWidth": 1
+            },
+            "child": {
+              "type": "Padding",
+              "padding": {
+                "top": 24,
+                "bottom": 24,
+                "left": 12,
+                "right": 12
+              },
+              "child": {
+                "type": "Column",
+                "mainAxisAlignment": "center",
+                "crossAxisAlignment": "center",
+                "mainAxisSize": "min",
+                "children": [
+                  {
+                    "type": "Image",
+                    "url": "https://ik.imagekit.io/ekpuecrvih/real-time%201.png?updatedAt=1752753485241",
+                    "height": 40,
+                    "width": 40
+                  },
+                  {
+                    "type": "SizedBox",
+                    "width": 12
+                  },
+                  {
+                    "type": "Text",
+                    "value": "BackUp Drivers",
+                    "textAlign": "center",
+                    "overflow": "ellipsis",
+                    "maxLines": 2,
+                    "softWrap": true,
+                    "style": {
+                      "fontSize": 14,
+                      "fontWeight": "w600",
+                      "color": "#000000",
+                      "letterSpacing": 0.2,
+                      "height": 1.3
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,1853 @@
+{
+  "type": "Column",
+  "mainAxisAlignment": "start",
+  "mainAxisSize": "max",
+  "children": [
+        {
+          "type": "Column",
+          "mainAxisAlignment": "start",
+          "mainAxisSize": "max",
+          "children": [
+            {
+              "type": "Padding",
+              "padding": {
+                "top": 0,
+                "bottom": 10,
+                "left": 15,
+                "right": 15
+              },
+              "child": {
+                "type": "GestureDetector",
+                "action": "view_coach_layout",
+                "res_id": "95668",
+                "child": {
+                  "type": "Container",
+                  "color": "#FFFFFF",
+                  "width": "match_parent",
+                  "borderRadius": 10,
+                  "borderColor": "#CACED3",
+                  "child": {
+                    "type": "Column",
+                    "mainAxisAlignment": "start",
+                    "children": [
+                      {
+                        "type": "Row",
+                        "mainAxisAlignment": "spaceBetween",
+                        "crossAxisSize": "max",
+                        "crossAxisAlignment": "center",
+                        "children": [
+                          {
+                            "type": "Column",
+                            "children": [
+                              {
+                                "type": "Padding",
+                                "padding": {
+                                  "top": 10,
+                                  "bottom": 0,
+                                  "left": 15,
+                                  "right": 15
+                                },
+                                "child": {
+                                  "type": "Text",
+                                  "value": "",
+                                  "textAlign": "start",
+                                  "style": {
+                                    "fontSize": 16,
+                                    "fontWeight": "bold",
+                                    "color": "#000000"
+                                  }
+                                }
+                              },
+                              {
+                                "type": "Padding",
+                                "padding": {
+                                  "top": 0,
+                                  "bottom": 0,
+                                  "left": 15,
+                                  "right": 15
+                                },
+                                "child": {
+                                  "type": "Text",
+                                  "value": " AC",
+                                  "textAlign": "start",
+                                  "style": {
+                                    "fontSize": 12,
+                                    "fontWeight": "normal",
+                                    "color": "#000000"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "Padding",
+                            "padding": {
+                              "top": 15,
+                              "bottom": 5,
+                              "left": 10,
+                              "right": 10
+                            },
+                            "child": {
+                              "type": "Container",
+                              "color": "#1D8844",
+                              "borderRadius": 5,
+                              "child": {
+                                "type": "Padding",
+                                "padding": {
+                                  "top": 5,
+                                  "bottom": 5,
+                                  "left": 10,
+                                  "right": 10
+                                },
+                                "child": {
+                                  "type": "Row",
+                                  "children": [
+                                    {
+                                      "type": "Icon",
+                                      "name": "star",
+                                      "color": "#FFFFFF",
+                                      "size": 14
+                                    },
+                                    {
+                                      "type": "SizedBox",
+                                      "width": 5
+                                    },
+                                    {
+                                      "type": "Text",
+                                      "value": "0.0",
+                                      "textAlign": "start",
+                                      "style": {
+                                        "fontSize": 12,
+                                        "fontWeight": "bold",
+                                        "color": "#FFFFFF"
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "type": "Row",
+                        "mainAxisAlignment": "spaceBetween",
+                        "children": [
+                          {
+                            "type": "Padding",
+                            "padding": {
+                              "top": 10,
+                              "bottom": 0,
+                              "left": 15,
+                              "right": 15
+                            },
+                            "child": {
+                              "type": "Text",
+                              "value": "11:00 PM",
+                              "style": {
+                                "fontSize": 16,
+                                "fontWeight": "bold",
+                                "color": "#000000"
+                              }
+                            }
+                          },
+                          {
+                            "type": "Column",
+                            "crossAxisAlignment": "center",
+                            "mainAxisAlignment": "center",
+                            "children": [
+                              {
+                                "type": "Padding",
+                                "padding": {
+                                  "top": 10
+                                },
+                                "child": {
+                                  "type": "Image",
+                                  "url": "https://ik.imagekit.io/ekpuecrvih/Line%208.png?updatedAt=1754998912377"
+                                }
+                              },
+                              {
+                                "type": "Text",
+                                "value": "11:00",
+                                "style": {
+                                  "fontSize": 12,
+                                  "fontWeight": "normal",
+                                  "color": "#000000"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "Padding",
+                            "padding": {
+                              "top": 10,
+                              "bottom": 0,
+                              "left": 15,
+                              "right": 15
+                            },
+                            "child": {
+                              "type": "Text",
+                              "value": "10:00 AM",
+                              "style": {
+                                "fontSize": 16,
+                                "fontWeight": "bold",
+                                "color": "#000000"
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "type": "Row",
+                        "mainAxisAlignment": "spaceBetween",
+                        "children": [
+                          {
+                            "type": "Padding",
+                            "padding": {
+                              "top": 0,
+                              "bottom": 0,
+                              "left": 15,
+                              "right": 15
+                            },
+                            "child": {
+                              "type": "Text",
+                              "value": "N/A",
+                              "style": {
+                                "fontSize": 14,
+                                "fontWeight": "normal",
+                                "color": "#000000"
+                              }
+                            }
+                          },
+                          {
+                            "type": "Padding",
+                            "padding": {
+                              "top": 0,
+                              "bottom": 0,
+                              "left": 15,
+                              "right": 15
+                            },
+                            "child": {
+                              "type": "Text",
+                              "value": "N/A",
+                              "style": {
+                                "fontSize": 14,
+                                "fontWeight": "normal",
+                                "color": "#000000"
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "type": "Container",
+                        "width": "match_parent",
+                        "child": {
+                          "type": "Row",
+                          "mainAxisSize": "max",
+                          "mainAxisAlignment": "spaceBetween",
+                          "children": [
+                            {
+                              "type": "Row",
+                              "children": [
+                                {
+                                  "type": "Padding",
+                                  "padding": {
+                                    "top": 15,
+                                    "bottom": 0,
+                                    "left": 15,
+                                    "right": 15
+                                  },
+                                  "child": {
+                                    "type": "Image",
+                                    "url": "https://ik.imagekit.io/ekpuecrvih/Seat.png?updatedAt=1754999638310"
+                                  }
+                                },
+                                {
+                                  "type": "Column",
+                                  "crossAxisAlignment": "start",
+                                  "mainAxisAlignment": "center",
+                                  "children": [
+                                    {
+                                      "type": "Padding",
+                                      "padding": {
+                                        "top": 10,
+                                        "bottom": 0,
+                                        "left": 0,
+                                        "right": 15
+                                      },
+                                      "child": {
+                                        "type": "Text",
+                                        "value": "52",
+                                        "style": {
+                                          "fontSize": 16,
+                                          "fontWeight": "bold",
+                                          "color": "#000000"
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "type": "Text",
+                                      "value": "Seats Available",
+                                      "style": {
+                                        "fontSize": 12,
+                                        "fontWeight": "normal",
+                                        "color": "#000000"
+                                      }
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "Padding",
+                              "padding": {
+                                "top": 0,
+                                "bottom": 0,
+                                "left": 0,
+                                "right": 15
+                              },
+                              "child": {
+                                "type": "Column",
+                                "crossAxisAlignment": "start",
+                                "mainAxisAlignment": "center",
+                                "children": [
+                                  {
+                                    "type": "Padding",
+                                    "padding": {
+                                      "top": 10,
+                                      "bottom": 0,
+                                      "left": 0,
+                                      "right": 15
+                                    },
+                                    "child": {
+                                      "type": "Text",
+                                      "value": "STARTS FROM",
+                                      "style": {
+                                        "fontSize": 12,
+                                        "fontWeight": "normal",
+                                        "color": "#000000"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "type": "Text",
+                                    "value": "₹1155",
+                                    "style": {
+                                      "fontSize": 16,
+                                      "fontWeight": "bold",
+                                      "color": "#000000"
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "Padding",
+                        "padding": {
+                          "top": 15,
+                          "left": 10,
+                          "right": 10
+                        },
+                        "child": {
+                          "type": "SizedBox",
+                          "height": 40,
+                          "child": {
+                            "type": "ListView",
+                            "scrollDirection": "horizontal",
+                            "children": [
+                              {
+                                "type": "Padding",
+                                "padding": {
+                                  "right": 10
+                                },
+                                "child": {
+                                  "type": "Align",
+                                  "alignment": "topLeft",
+                                  "child": {
+                                    "type": "Container",
+                                    "borderRadius": 10,
+                                    "borderColor": "#FFDFAE",
+                                    "color": "#FFF7EB",
+                                    "padding": {
+                                      "top": 5,
+                                      "bottom": 5,
+                                      "left": 10,
+                                      "right": 10
+                                    },
+                                    "child": {
+                                      "type": "Text",
+                                      "value": "Security guard",
+                                      "style": {
+                                        "fontSize": 12,
+                                        "fontWeight": "normal",
+                                        "color": "#000000"
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              {
+                                "type": "Padding",
+                                "padding": {
+                                  "right": 10
+                                },
+                                "child": {
+                                  "type": "Align",
+                                  "alignment": "topLeft",
+                                  "child": {
+                                    "type": "Container",
+                                    "borderRadius": 10,
+                                    "borderColor": "#FFDFAE",
+                                    "color": "#FFF7EB",
+                                    "padding": {
+                                      "top": 5,
+                                      "bottom": 5,
+                                      "left": 10,
+                                      "right": 10
+                                    },
+                                    "child": {
+                                      "type": "Text",
+                                      "value": "RO Filter",
+                                      "style": {
+                                        "fontSize": 12,
+                                        "fontWeight": "normal",
+                                        "color": "#000000"
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      },
+                      {
+                        "type": "SizedBox",
+                        "height": 20
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "mainAxisAlignment": "start",
+          "mainAxisSize": "max",
+          "children": [
+            {
+              "type": "Padding",
+              "padding": {
+                "top": 0,
+                "bottom": 10,
+                "left": 15,
+                "right": 15
+              },
+              "child": {
+                "type": "GestureDetector",
+                "action": "view_coach_layout",
+                "res_id": "95564",
+                "child": {
+                  "type": "Container",
+                  "color": "#FFFFFF",
+                  "width": "match_parent",
+                  "borderRadius": 10,
+                  "borderColor": "#CACED3",
+                  "child": {
+                    "type": "Column",
+                    "mainAxisAlignment": "start",
+                    "children": [
+                      {
+                        "type": "Row",
+                        "mainAxisAlignment": "spaceBetween",
+                        "crossAxisSize": "max",
+                        "crossAxisAlignment": "center",
+                        "children": [
+                          {
+                            "type": "Column",
+                            "children": [
+                              {
+                                "type": "Padding",
+                                "padding": {
+                                  "top": 10,
+                                  "bottom": 0,
+                                  "left": 15,
+                                  "right": 15
+                                },
+                                "child": {
+                                  "type": "Text",
+                                  "value": "test1",
+                                  "textAlign": "start",
+                                  "style": {
+                                    "fontSize": 16,
+                                    "fontWeight": "bold",
+                                    "color": "#000000"
+                                  }
+                                }
+                              },
+                              {
+                                "type": "Padding",
+                                "padding": {
+                                  "top": 0,
+                                  "bottom": 0,
+                                  "left": 15,
+                                  "right": 15
+                                },
+                                "child": {
+                                  "type": "Text",
+                                  "value": " AC (30 seats)",
+                                  "textAlign": "start",
+                                  "style": {
+                                    "fontSize": 12,
+                                    "fontWeight": "normal",
+                                    "color": "#000000"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "Padding",
+                            "padding": {
+                              "top": 15,
+                              "bottom": 5,
+                              "left": 10,
+                              "right": 10
+                            },
+                            "child": {
+                              "type": "Container",
+                              "color": "#1D8844",
+                              "borderRadius": 5,
+                              "child": {
+                                "type": "Padding",
+                                "padding": {
+                                  "top": 5,
+                                  "bottom": 5,
+                                  "left": 10,
+                                  "right": 10
+                                },
+                                "child": {
+                                  "type": "Row",
+                                  "children": [
+                                    {
+                                      "type": "Icon",
+                                      "name": "star",
+                                      "color": "#FFFFFF",
+                                      "size": 14
+                                    },
+                                    {
+                                      "type": "SizedBox",
+                                      "width": 5
+                                    },
+                                    {
+                                      "type": "Text",
+                                      "value": "0.0",
+                                      "textAlign": "start",
+                                      "style": {
+                                        "fontSize": 12,
+                                        "fontWeight": "bold",
+                                        "color": "#FFFFFF"
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "type": "Row",
+                        "mainAxisAlignment": "spaceBetween",
+                        "children": [
+                          {
+                            "type": "Padding",
+                            "padding": {
+                              "top": 10,
+                              "bottom": 0,
+                              "left": 15,
+                              "right": 15
+                            },
+                            "child": {
+                              "type": "Text",
+                              "value": "11:30 PM",
+                              "style": {
+                                "fontSize": 16,
+                                "fontWeight": "bold",
+                                "color": "#000000"
+                              }
+                            }
+                          },
+                          {
+                            "type": "Column",
+                            "crossAxisAlignment": "center",
+                            "mainAxisAlignment": "center",
+                            "children": [
+                              {
+                                "type": "Padding",
+                                "padding": {
+                                  "top": 10
+                                },
+                                "child": {
+                                  "type": "Image",
+                                  "url": "https://ik.imagekit.io/ekpuecrvih/Line%208.png?updatedAt=1754998912377"
+                                }
+                              },
+                              {
+                                "type": "Text",
+                                "value": "06:00",
+                                "style": {
+                                  "fontSize": 12,
+                                  "fontWeight": "normal",
+                                  "color": "#000000"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "Padding",
+                            "padding": {
+                              "top": 10,
+                              "bottom": 0,
+                              "left": 15,
+                              "right": 15
+                            },
+                            "child": {
+                              "type": "Text",
+                              "value": "05:30 AM",
+                              "style": {
+                                "fontSize": 16,
+                                "fontWeight": "bold",
+                                "color": "#000000"
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "type": "Row",
+                        "mainAxisAlignment": "spaceBetween",
+                        "children": [
+                          {
+                            "type": "Padding",
+                            "padding": {
+                              "top": 0,
+                              "bottom": 0,
+                              "left": 15,
+                              "right": 15
+                            },
+                            "child": {
+                              "type": "Text",
+                              "value": "N/A",
+                              "style": {
+                                "fontSize": 14,
+                                "fontWeight": "normal",
+                                "color": "#000000"
+                              }
+                            }
+                          },
+                          {
+                            "type": "Padding",
+                            "padding": {
+                              "top": 0,
+                              "bottom": 0,
+                              "left": 15,
+                              "right": 15
+                            },
+                            "child": {
+                              "type": "Text",
+                              "value": "N/A",
+                              "style": {
+                                "fontSize": 14,
+                                "fontWeight": "normal",
+                                "color": "#000000"
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "type": "Container",
+                        "width": "match_parent",
+                        "child": {
+                          "type": "Row",
+                          "mainAxisSize": "max",
+                          "mainAxisAlignment": "spaceBetween",
+                          "children": [
+                            {
+                              "type": "Row",
+                              "children": [
+                                {
+                                  "type": "Padding",
+                                  "padding": {
+                                    "top": 15,
+                                    "bottom": 0,
+                                    "left": 15,
+                                    "right": 15
+                                  },
+                                  "child": {
+                                    "type": "Image",
+                                    "url": "https://ik.imagekit.io/ekpuecrvih/Seat.png?updatedAt=1754999638310"
+                                  }
+                                },
+                                {
+                                  "type": "Column",
+                                  "crossAxisAlignment": "start",
+                                  "mainAxisAlignment": "center",
+                                  "children": [
+                                    {
+                                      "type": "Padding",
+                                      "padding": {
+                                        "top": 10,
+                                        "bottom": 0,
+                                        "left": 0,
+                                        "right": 15
+                                      },
+                                      "child": {
+                                        "type": "Text",
+                                        "value": "30",
+                                        "style": {
+                                          "fontSize": 16,
+                                          "fontWeight": "bold",
+                                          "color": "#000000"
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "type": "Text",
+                                      "value": "Seats Available",
+                                      "style": {
+                                        "fontSize": 12,
+                                        "fontWeight": "normal",
+                                        "color": "#000000"
+                                      }
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "Padding",
+                              "padding": {
+                                "top": 0,
+                                "bottom": 0,
+                                "left": 0,
+                                "right": 15
+                              },
+                              "child": {
+                                "type": "Column",
+                                "crossAxisAlignment": "start",
+                                "mainAxisAlignment": "center",
+                                "children": [
+                                  {
+                                    "type": "Padding",
+                                    "padding": {
+                                      "top": 10,
+                                      "bottom": 0,
+                                      "left": 0,
+                                      "right": 15
+                                    },
+                                    "child": {
+                                      "type": "Text",
+                                      "value": "STARTS FROM",
+                                      "style": {
+                                        "fontSize": 12,
+                                        "fontWeight": "normal",
+                                        "color": "#000000"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "type": "Text",
+                                    "value": "₹735",
+                                    "style": {
+                                      "fontSize": 16,
+                                      "fontWeight": "bold",
+                                      "color": "#000000"
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "SizedBox",
+                        "height": 20
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "mainAxisAlignment": "start",
+          "mainAxisSize": "max",
+          "children": [
+            {
+              "type": "Padding",
+              "padding": {
+                "top": 0,
+                "bottom": 10,
+                "left": 15,
+                "right": 15
+              },
+              "child": {
+                "type": "GestureDetector",
+                "action": "view_coach_layout",
+                "res_id": "95565",
+                "child": {
+                  "type": "Container",
+                  "color": "#FFFFFF",
+                  "width": "match_parent",
+                  "borderRadius": 10,
+                  "borderColor": "#CACED3",
+                  "child": {
+                    "type": "Column",
+                    "mainAxisAlignment": "start",
+                    "children": [
+                      {
+                        "type": "Row",
+                        "mainAxisAlignment": "spaceBetween",
+                        "crossAxisSize": "max",
+                        "crossAxisAlignment": "center",
+                        "children": [
+                          {
+                            "type": "Column",
+                            "children": [
+                              {
+                                "type": "Padding",
+                                "padding": {
+                                  "top": 10,
+                                  "bottom": 0,
+                                  "left": 15,
+                                  "right": 15
+                                },
+                                "child": {
+                                  "type": "Text",
+                                  "value": "test1",
+                                  "textAlign": "start",
+                                  "style": {
+                                    "fontSize": 16,
+                                    "fontWeight": "bold",
+                                    "color": "#000000"
+                                  }
+                                }
+                              },
+                              {
+                                "type": "Padding",
+                                "padding": {
+                                  "top": 0,
+                                  "bottom": 0,
+                                  "left": 15,
+                                  "right": 15
+                                },
+                                "child": {
+                                  "type": "Text",
+                                  "value": " AC (30 seats)",
+                                  "textAlign": "start",
+                                  "style": {
+                                    "fontSize": 12,
+                                    "fontWeight": "normal",
+                                    "color": "#000000"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "Padding",
+                            "padding": {
+                              "top": 15,
+                              "bottom": 5,
+                              "left": 10,
+                              "right": 10
+                            },
+                            "child": {
+                              "type": "Container",
+                              "color": "#1D8844",
+                              "borderRadius": 5,
+                              "child": {
+                                "type": "Padding",
+                                "padding": {
+                                  "top": 5,
+                                  "bottom": 5,
+                                  "left": 10,
+                                  "right": 10
+                                },
+                                "child": {
+                                  "type": "Row",
+                                  "children": [
+                                    {
+                                      "type": "Icon",
+                                      "name": "star",
+                                      "color": "#FFFFFF",
+                                      "size": 14
+                                    },
+                                    {
+                                      "type": "SizedBox",
+                                      "width": 5
+                                    },
+                                    {
+                                      "type": "Text",
+                                      "value": "0.0",
+                                      "textAlign": "start",
+                                      "style": {
+                                        "fontSize": 12,
+                                        "fontWeight": "bold",
+                                        "color": "#FFFFFF"
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "type": "Row",
+                        "mainAxisAlignment": "spaceBetween",
+                        "children": [
+                          {
+                            "type": "Padding",
+                            "padding": {
+                              "top": 10,
+                              "bottom": 0,
+                              "left": 15,
+                              "right": 15
+                            },
+                            "child": {
+                              "type": "Text",
+                              "value": "11:30 PM",
+                              "style": {
+                                "fontSize": 16,
+                                "fontWeight": "bold",
+                                "color": "#000000"
+                              }
+                            }
+                          },
+                          {
+                            "type": "Column",
+                            "crossAxisAlignment": "center",
+                            "mainAxisAlignment": "center",
+                            "children": [
+                              {
+                                "type": "Padding",
+                                "padding": {
+                                  "top": 10
+                                },
+                                "child": {
+                                  "type": "Image",
+                                  "url": "https://ik.imagekit.io/ekpuecrvih/Line%208.png?updatedAt=1754998912377"
+                                }
+                              },
+                              {
+                                "type": "Text",
+                                "value": "06:00",
+                                "style": {
+                                  "fontSize": 12,
+                                  "fontWeight": "normal",
+                                  "color": "#000000"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "Padding",
+                            "padding": {
+                              "top": 10,
+                              "bottom": 0,
+                              "left": 15,
+                              "right": 15
+                            },
+                            "child": {
+                              "type": "Text",
+                              "value": "05:30 AM",
+                              "style": {
+                                "fontSize": 16,
+                                "fontWeight": "bold",
+                                "color": "#000000"
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "type": "Row",
+                        "mainAxisAlignment": "spaceBetween",
+                        "children": [
+                          {
+                            "type": "Padding",
+                            "padding": {
+                              "top": 0,
+                              "bottom": 0,
+                              "left": 15,
+                              "right": 15
+                            },
+                            "child": {
+                              "type": "Text",
+                              "value": "N/A",
+                              "style": {
+                                "fontSize": 14,
+                                "fontWeight": "normal",
+                                "color": "#000000"
+                              }
+                            }
+                          },
+                          {
+                            "type": "Padding",
+                            "padding": {
+                              "top": 0,
+                              "bottom": 0,
+                              "left": 15,
+                              "right": 15
+                            },
+                            "child": {
+                              "type": "Text",
+                              "value": "N/A",
+                              "style": {
+                                "fontSize": 14,
+                                "fontWeight": "normal",
+                                "color": "#000000"
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "type": "Container",
+                        "width": "match_parent",
+                        "child": {
+                          "type": "Row",
+                          "mainAxisSize": "max",
+                          "mainAxisAlignment": "spaceBetween",
+                          "children": [
+                            {
+                              "type": "Row",
+                              "children": [
+                                {
+                                  "type": "Padding",
+                                  "padding": {
+                                    "top": 15,
+                                    "bottom": 0,
+                                    "left": 15,
+                                    "right": 15
+                                  },
+                                  "child": {
+                                    "type": "Image",
+                                    "url": "https://ik.imagekit.io/ekpuecrvih/Seat.png?updatedAt=1754999638310"
+                                  }
+                                },
+                                {
+                                  "type": "Column",
+                                  "crossAxisAlignment": "start",
+                                  "mainAxisAlignment": "center",
+                                  "children": [
+                                    {
+                                      "type": "Padding",
+                                      "padding": {
+                                        "top": 10,
+                                        "bottom": 0,
+                                        "left": 0,
+                                        "right": 15
+                                      },
+                                      "child": {
+                                        "type": "Text",
+                                        "value": "30",
+                                        "style": {
+                                          "fontSize": 16,
+                                          "fontWeight": "bold",
+                                          "color": "#000000"
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "type": "Text",
+                                      "value": "Seats Available",
+                                      "style": {
+                                        "fontSize": 12,
+                                        "fontWeight": "normal",
+                                        "color": "#000000"
+                                      }
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "Padding",
+                              "padding": {
+                                "top": 0,
+                                "bottom": 0,
+                                "left": 0,
+                                "right": 15
+                              },
+                              "child": {
+                                "type": "Column",
+                                "crossAxisAlignment": "start",
+                                "mainAxisAlignment": "center",
+                                "children": [
+                                  {
+                                    "type": "Padding",
+                                    "padding": {
+                                      "top": 10,
+                                      "bottom": 0,
+                                      "left": 0,
+                                      "right": 15
+                                    },
+                                    "child": {
+                                      "type": "Text",
+                                      "value": "STARTS FROM",
+                                      "style": {
+                                        "fontSize": 12,
+                                        "fontWeight": "normal",
+                                        "color": "#000000"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "type": "Text",
+                                    "value": "₹735",
+                                    "style": {
+                                      "fontSize": 16,
+                                      "fontWeight": "bold",
+                                      "color": "#000000"
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "SizedBox",
+                        "height": 20
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "mainAxisAlignment": "start",
+          "mainAxisSize": "max",
+          "children": [
+            {
+              "type": "Padding",
+              "padding": {
+                "top": 0,
+                "bottom": 10,
+                "left": 15,
+                "right": 15
+              },
+              "child": {
+                "type": "GestureDetector",
+                "action": "view_coach_layout",
+                "res_id": "95582",
+                "child": {
+                  "type": "Container",
+                  "color": "#FFFFFF",
+                  "width": "match_parent",
+                  "borderRadius": 10,
+                  "borderColor": "#CACED3",
+                  "child": {
+                    "type": "Column",
+                    "mainAxisAlignment": "start",
+                    "children": [
+                      {
+                        "type": "Row",
+                        "mainAxisAlignment": "spaceBetween",
+                        "crossAxisSize": "max",
+                        "crossAxisAlignment": "center",
+                        "children": [
+                          {
+                            "type": "Column",
+                            "children": [
+                              {
+                                "type": "Padding",
+                                "padding": {
+                                  "top": 10,
+                                  "bottom": 0,
+                                  "left": 15,
+                                  "right": 15
+                                },
+                                "child": {
+                                  "type": "Text",
+                                  "value": "",
+                                  "textAlign": "start",
+                                  "style": {
+                                    "fontSize": 16,
+                                    "fontWeight": "bold",
+                                    "color": "#000000"
+                                  }
+                                }
+                              },
+                              {
+                                "type": "Padding",
+                                "padding": {
+                                  "top": 0,
+                                  "bottom": 0,
+                                  "left": 15,
+                                  "right": 15
+                                },
+                                "child": {
+                                  "type": "Text",
+                                  "value": " Non-AC",
+                                  "textAlign": "start",
+                                  "style": {
+                                    "fontSize": 12,
+                                    "fontWeight": "normal",
+                                    "color": "#000000"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "Padding",
+                            "padding": {
+                              "top": 15,
+                              "bottom": 5,
+                              "left": 10,
+                              "right": 10
+                            },
+                            "child": {
+                              "type": "Container",
+                              "color": "#1D8844",
+                              "borderRadius": 5,
+                              "child": {
+                                "type": "Padding",
+                                "padding": {
+                                  "top": 5,
+                                  "bottom": 5,
+                                  "left": 10,
+                                  "right": 10
+                                },
+                                "child": {
+                                  "type": "Row",
+                                  "children": [
+                                    {
+                                      "type": "Icon",
+                                      "name": "star",
+                                      "color": "#FFFFFF",
+                                      "size": 14
+                                    },
+                                    {
+                                      "type": "SizedBox",
+                                      "width": 5
+                                    },
+                                    {
+                                      "type": "Text",
+                                      "value": "0.0",
+                                      "textAlign": "start",
+                                      "style": {
+                                        "fontSize": 12,
+                                        "fontWeight": "bold",
+                                        "color": "#FFFFFF"
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "type": "Row",
+                        "mainAxisAlignment": "spaceBetween",
+                        "children": [
+                          {
+                            "type": "Padding",
+                            "padding": {
+                              "top": 10,
+                              "bottom": 0,
+                              "left": 15,
+                              "right": 15
+                            },
+                            "child": {
+                              "type": "Text",
+                              "value": "11:00 PM",
+                              "style": {
+                                "fontSize": 16,
+                                "fontWeight": "bold",
+                                "color": "#000000"
+                              }
+                            }
+                          },
+                          {
+                            "type": "Column",
+                            "crossAxisAlignment": "center",
+                            "mainAxisAlignment": "center",
+                            "children": [
+                              {
+                                "type": "Padding",
+                                "padding": {
+                                  "top": 10
+                                },
+                                "child": {
+                                  "type": "Image",
+                                  "url": "https://ik.imagekit.io/ekpuecrvih/Line%208.png?updatedAt=1754998912377"
+                                }
+                              },
+                              {
+                                "type": "Text",
+                                "value": "11:00",
+                                "style": {
+                                  "fontSize": 12,
+                                  "fontWeight": "normal",
+                                  "color": "#000000"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "Padding",
+                            "padding": {
+                              "top": 10,
+                              "bottom": 0,
+                              "left": 15,
+                              "right": 15
+                            },
+                            "child": {
+                              "type": "Text",
+                              "value": "10:00 AM",
+                              "style": {
+                                "fontSize": 16,
+                                "fontWeight": "bold",
+                                "color": "#000000"
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "type": "Row",
+                        "mainAxisAlignment": "spaceBetween",
+                        "children": [
+                          {
+                            "type": "Padding",
+                            "padding": {
+                              "top": 0,
+                              "bottom": 0,
+                              "left": 15,
+                              "right": 15
+                            },
+                            "child": {
+                              "type": "Text",
+                              "value": "N/A",
+                              "style": {
+                                "fontSize": 14,
+                                "fontWeight": "normal",
+                                "color": "#000000"
+                              }
+                            }
+                          },
+                          {
+                            "type": "Padding",
+                            "padding": {
+                              "top": 0,
+                              "bottom": 0,
+                              "left": 15,
+                              "right": 15
+                            },
+                            "child": {
+                              "type": "Text",
+                              "value": "N/A",
+                              "style": {
+                                "fontSize": 14,
+                                "fontWeight": "normal",
+                                "color": "#000000"
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "type": "Container",
+                        "width": "match_parent",
+                        "child": {
+                          "type": "Row",
+                          "mainAxisSize": "max",
+                          "mainAxisAlignment": "spaceBetween",
+                          "children": [
+                            {
+                              "type": "Row",
+                              "children": [
+                                {
+                                  "type": "Padding",
+                                  "padding": {
+                                    "top": 15,
+                                    "bottom": 0,
+                                    "left": 15,
+                                    "right": 15
+                                  },
+                                  "child": {
+                                    "type": "Image",
+                                    "url": "https://ik.imagekit.io/ekpuecrvih/Seat.png?updatedAt=1754999638310"
+                                  }
+                                },
+                                {
+                                  "type": "Column",
+                                  "crossAxisAlignment": "start",
+                                  "mainAxisAlignment": "center",
+                                  "children": [
+                                    {
+                                      "type": "Padding",
+                                      "padding": {
+                                        "top": 10,
+                                        "bottom": 0,
+                                        "left": 0,
+                                        "right": 15
+                                      },
+                                      "child": {
+                                        "type": "Text",
+                                        "value": "47",
+                                        "style": {
+                                          "fontSize": 16,
+                                          "fontWeight": "bold",
+                                          "color": "#000000"
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "type": "Text",
+                                      "value": "Seats Available",
+                                      "style": {
+                                        "fontSize": 12,
+                                        "fontWeight": "normal",
+                                        "color": "#000000"
+                                      }
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "Padding",
+                              "padding": {
+                                "top": 0,
+                                "bottom": 0,
+                                "left": 0,
+                                "right": 15
+                              },
+                              "child": {
+                                "type": "Column",
+                                "crossAxisAlignment": "start",
+                                "mainAxisAlignment": "center",
+                                "children": [
+                                  {
+                                    "type": "Padding",
+                                    "padding": {
+                                      "top": 10,
+                                      "bottom": 0,
+                                      "left": 0,
+                                      "right": 15
+                                    },
+                                    "child": {
+                                      "type": "Text",
+                                      "value": "STARTS FROM",
+                                      "style": {
+                                        "fontSize": 12,
+                                        "fontWeight": "normal",
+                                        "color": "#000000"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "type": "Text",
+                                    "value": "₹1050",
+                                    "style": {
+                                      "fontSize": 16,
+                                      "fontWeight": "bold",
+                                      "color": "#000000"
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "SizedBox",
+                        "height": 20
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "mainAxisAlignment": "start",
+          "mainAxisSize": "max",
+
+          "children": [
+            {
+              "type": "Padding",
+              "padding": {
+                "top": 0,
+                "bottom": 10,
+                "left": 15,
+                "right": 15
+              },
+              "child": {
+                "type": "GestureDetector",
+                "action": "view_coach_layout",
+                "res_id": "95583",
+                "child": {
+                  "type": "Container",
+                  "color": "#FFFFFF",
+                  "width": "match_parent",
+                  "borderRadius": 10,
+                  "borderColor": "#CACED3",
+                  "child": {
+                    "type": "Column",
+                    "mainAxisAlignment": "start",
+                    "children": [
+                      {
+                        "type": "Row",
+                        "mainAxisAlignment": "spaceBetween",
+                        "crossAxisSize": "max",
+                        "crossAxisAlignment": "center",
+                        "children": [
+                          {
+                            "type": "Column",
+                            "children": [
+                              {
+                                "type": "Padding",
+                                "padding": {
+                                  "top": 10,
+                                  "bottom": 0,
+                                  "left": 15,
+                                  "right": 15
+                                },
+                                "child": {
+                                  "type": "Text",
+                                  "value": "CA-14",
+                                  "textAlign": "start",
+                                  "style": {
+                                    "fontSize": 16,
+                                    "fontWeight": "bold",
+                                    "color": "#000000"
+                                  }
+                                }
+                              },
+                              {
+                                "type": "Padding",
+                                "padding": {
+                                  "top": 0,
+                                  "bottom": 0,
+                                  "left": 15,
+                                  "right": 15
+                                },
+                                "child": {
+                                  "type": "Text",
+                                  "value": " AC",
+                                  "textAlign": "start",
+                                  "style": {
+                                    "fontSize": 12,
+                                    "fontWeight": "normal",
+                                    "color": "#000000"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "Padding",
+                            "padding": {
+                              "top": 15,
+                              "bottom": 5,
+                              "left": 10,
+                              "right": 10
+                            },
+                            "child": {
+                              "type": "Container",
+                              "color": "#1D8844",
+                              "borderRadius": 5,
+                              "child": {
+                                "type": "Padding",
+                                "padding": {
+                                  "top": 5,
+                                  "bottom": 5,
+                                  "left": 10,
+                                  "right": 10
+                                },
+                                "child": {
+                                  "type": "Row",
+                                  "children": [
+                                    {
+                                      "type": "Icon",
+                                      "name": "star",
+                                      "color": "#FFFFFF",
+                                      "size": 14
+                                    },
+                                    {
+                                      "type": "SizedBox",
+                                      "width": 5
+                                    },
+                                    {
+                                      "type": "Text",
+                                      "value": "0.0",
+                                      "textAlign": "start",
+                                      "style": {
+                                        "fontSize": 12,
+                                        "fontWeight": "bold",
+                                        "color": "#FFFFFF"
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "type": "Row",
+                        "mainAxisAlignment": "spaceBetween",
+                        "children": [
+                          {
+                            "type": "Padding",
+                            "padding": {
+                              "top": 10,
+                              "bottom": 0,
+                              "left": 15,
+                              "right": 15
+                            },
+                            "child": {
+                              "type": "Text",
+                              "value": "11:00 PM",
+                              "style": {
+                                "fontSize": 16,
+                                "fontWeight": "bold",
+                                "color": "#000000"
+                              }
+                            }
+                          },
+                          {
+                            "type": "Column",
+                            "crossAxisAlignment": "center",
+                            "mainAxisAlignment": "center",
+                            "children": [
+                              {
+                                "type": "Padding",
+                                "padding": {
+                                  "top": 10
+                                },
+                                "child": {
+                                  "type": "Image",
+                                  "url": "https://ik.imagekit.io/ekpuecrvih/Line%208.png?updatedAt=1754998912377"
+                                }
+                              },
+                              {
+                                "type": "Text",
+                                "value": "15:30",
+                                "style": {
+                                  "fontSize": 12,
+                                  "fontWeight": "normal",
+                                  "color": "#000000"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "Padding",
+                            "padding": {
+                              "top": 10,
+                              "bottom": 0,
+                              "left": 15,
+                              "right": 15
+                            },
+                            "child": {
+                              "type": "Text",
+                              "value": "02:30 PM",
+                              "style": {
+                                "fontSize": 16,
+                                "fontWeight": "bold",
+                                "color": "#000000"
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "type": "Row",
+                        "mainAxisAlignment": "spaceBetween",
+                        "children": [
+                          {
+                            "type": "Padding",
+                            "padding": {
+                              "top": 0,
+                              "bottom": 0,
+                              "left": 15,
+                              "right": 15
+                            },
+                            "child": {
+                              "type": "Text",
+                              "value": "N/A",
+                              "style": {
+                                "fontSize": 14,
+                                "fontWeight": "normal",
+                                "color": "#000000"
+                              }
+                            }
+                          },
+                          {
+                            "type": "Padding",
+                            "padding": {
+                              "top": 0,
+                              "bottom": 0,
+                              "left": 15,
+                              "right": 15
+                            },
+                            "child": {
+                              "type": "Text",
+                              "value": "N/A",
+                              "style": {
+                                "fontSize": 14,
+                                "fontWeight": "normal",
+                                "color": "#000000"
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "type": "Container",
+                        "width": "match_parent",
+                        "child": {
+                          "type": "Row",
+                          "mainAxisSize": "max",
+                          "mainAxisAlignment": "spaceBetween",
+                          "children": [
+                            {
+                              "type": "Row",
+                              "children": [
+                                {
+                                  "type": "Padding",
+                                  "padding": {
+                                    "top": 15,
+                                    "bottom": 0,
+                                    "left": 15,
+                                    "right": 15
+                                  },
+                                  "child": {
+                                    "type": "Image",
+                                    "url": "https://ik.imagekit.io/ekpuecrvih/Seat.png?updatedAt=1754999638310"
+                                  }
+                                },
+                                {
+                                  "type": "Column",
+                                  "crossAxisAlignment": "start",
+                                  "mainAxisAlignment": "center",
+                                  "children": [
+                                    {
+                                      "type": "Padding",
+                                      "padding": {
+                                        "top": 10,
+                                        "bottom": 0,
+                                        "left": 0,
+                                        "right": 15
+                                      },
+                                      "child": {
+                                        "type": "Text",
+                                        "value": "41",
+                                        "style": {
+                                          "fontSize": 16,
+                                          "fontWeight": "bold",
+                                          "color": "#000000"
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "type": "Text",
+                                      "value": "Seats Available",
+                                      "style": {
+                                        "fontSize": 12,
+                                        "fontWeight": "normal",
+                                        "color": "#000000"
+                                      }
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "Padding",
+                              "padding": {
+                                "top": 0,
+                                "bottom": 0,
+                                "left": 0,
+                                "right": 15
+                              },
+                              "child": {
+                                "type": "Column",
+                                "crossAxisAlignment": "start",
+                                "mainAxisAlignment": "center",
+                                "children": [
+                                  {
+                                    "type": "Padding",
+                                    "padding": {
+                                      "top": 10,
+                                      "bottom": 0,
+                                      "left": 0,
+                                      "right": 15
+                                    },
+                                    "child": {
+                                      "type": "Text",
+                                      "value": "STARTS FROM",
+                                      "style": {
+                                        "fontSize": 12,
+                                        "fontWeight": "normal",
+                                        "color": "#000000"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "type": "Text",
+                                    "value": "₹1050",
+                                    "style": {
+                                      "fontSize": 16,
+                                      "fontWeight": "bold",
+                                      "color": "#000000"
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "SizedBox",
+                        "height": 20
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }

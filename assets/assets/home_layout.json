@@ -1,0 +1,1146 @@
+{
+  "type": "Column",
+  "mainAxisAlignment": "start",
+  "children": [
+    {
+      "type": "Column",
+      "mainAxisAlignment": "center",
+      "crossAxisAlignment": "start",
+      "mainAxisSize": "max",
+      "textDirection": "ltr",
+      "verticalDirection": "down",
+      "children": [
+        {
+          "type": "WidgetSlider",
+          "height": 250,
+          "images": [
+            {
+              "type": "Container",
+              "width": "match_parent",
+              "color": "#F2F1EB",
+              "child": {
+                "type": "Stack",
+                "width": "match_parent",
+                "children": [
+                  {
+                    "type": "Image",
+                    "url": "https://ik.imagekit.io/ekpuecrvih/82ab7661027d8f0a9304de361730697d19c038a6.png?updatedAt=1754894491622",
+                    "height": 250,
+                    "width": "match_parent",
+                    "borderRadius": 0,
+                    "fit": "fill"
+                  },
+                  {
+                    "type": "Positioned",
+                    "bottom": 40,
+                    "top": 40,
+                    "left": 40,
+                    "right": 40,
+                    "child": {
+                      "type": "Container",
+                      "color": "#FFFFFF",
+                      "child": {
+                        "type": "Padding",
+                        "padding": 15,
+                        "child": {
+                          "type": "Column",
+                          "crossAxisAlignment": "start",
+                          "mainAxisSize": "min",
+                          "children": [
+                            {
+                              "type": "Text",
+                              "value": "More than just a bus ride",
+                              "textAlign": "start",
+                              "overflow": "ellipsis",
+                              "maxLines": 2,
+                              "softWrap": true,
+                              "style": {
+                                "fontSize": 28,
+                                "fontWeight": "w800",
+                                "color": "#000000"
+                              }
+                            },
+                            {
+                              "type": "Text",
+                              "value": "Get flat 15% off on your\nfirst ride",
+                              "textAlign": "start",
+                              "style": {
+                                "fontSize": 14,
+                                "color": "#FF0000"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "autoPlay": true,
+          "interval": 1000,
+          "viewportFraction": 1,
+          "imagePadding": 0,
+          "fit": "cover"
+        },
+        {
+          "type": "Padding",
+          "padding": 16,
+          "child": {
+            "type": "Column",
+            "children": [
+              {
+                "type": "Text",
+                "value": "Book your bus ticket",
+                "padding": 12,
+                "textAlign": "center",
+                "overflow": "ellipsis",
+                "maxLines": 1,
+                "softWrap": true,
+                "style": {
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                  "fontStyle": "normal",
+                  "color": "#000000",
+                  "letterSpacing": 1.2,
+                  "wordSpacing": 2
+                }
+              },
+              {
+                "type": "Stack",
+                "height": 136,
+                "children": [
+                  {
+                    "type": "Column",
+                    "children": [
+                      {
+                        "type": "SizedBox",
+                        "height": 50,
+                        "child": {
+                          "type": "InputField",
+                          "label": "Source",
+                          "borderColor": "#CACED3",
+                          "fontSize": 14,
+                          "fontWeight": "normal",
+                          "fontStyle": "normal",
+                          "textColor": "#000000",
+                          "hintColor": "#000000",
+                          "letterSpacing": 0.5,
+                          "wordSpacing": 1,
+                          "enabled": false,
+                          "borderRadius": 12,
+                          "contentPadding": 16,
+                          "filled": true,
+                          "fillColor": "#FFFFFF",
+                          "action": "select_source",
+                          "key": "source"
+                        }
+                      },
+                      {
+                        "type": "SizedBox",
+                        "height": 18
+                      },
+                      {
+                        "type": "SizedBox",
+                        "height": 50,
+                        "child": {
+                          "type": "InputField",
+                          "label": "Destination",
+                          "borderColor": "#CACED3",
+                          "fontSize": 14,
+                          "fontWeight": "normal",
+                          "fontStyle": "normal",
+                          "textColor": "#000000",
+                          "hintColor": "#000000",
+                          "letterSpacing": 0.5,
+                          "wordSpacing": 1,
+                          "borderRadius": 12,
+                          "contentPadding": 16,
+                          "filled": true,
+                          "fillColor": "#FFFFFF",
+                          "action": "select_destination",
+                          "key": "destination",
+                          "enabled": false
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Positioned",
+                    "top": 40,
+                    "right": 20,
+                    "width": 40,
+                    "height": 40,
+                    "child": {
+                      "type": "Container",
+                      "width": 29,
+                      "height": 20,
+                      "decoration": {
+                        "color": "#FFFFFF",
+                        "borderRadius": 20,
+                        "boxShadow": [  
+                          {
+                            "color": "#00000020",
+                            "offset": {"x": 0, "y": 1},
+                            "blurRadius": 1,
+                            "spreadRadius": 0
+                          }
+                        ]
+                      },
+                      "child": {
+                        "type": "AnimatedRotation",
+                        "turns": 0,
+                        "duration": 500,
+                        "curve": "easeInOut",
+                        "animationKey": "swap_rotation",
+                        "child": {
+                          "type": "IconButton",
+                          "action": "swap_source_destination",
+                          "iconSize": 24,
+                          "color": "#000000",
+                          "padding": 9,
+                          "icon": {
+                            "type": "Icon",
+                            "iconData": "Icons.swap_vert",
+                            "size": 24,
+                            "color": "#000000"
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+          
+              {
+                "type": "SizedBox",
+                "height": 60,
+                "child": {
+                  "type": "InputField",
+                  "label": "Onward Date",
+                  "suffixImage": "https://ik.imagekit.io/ekpuecrvih/Vector.png?updatedAt=1752745434425",
+                  "borderColor": "#CACED3",
+                  "fontSize": 14,
+                  "fontWeight": "normal",
+                  "fontStyle": "normal",
+                  "textColor": "#000000",
+                  "hintColor": "#757575",
+                  "letterSpacing": 0.5,
+                  "wordSpacing": 1,
+                  "borderRadius": 12,
+                  "contentPadding": 16,
+                  "filled": true,
+                  "fillColor": "#FFFFFF",
+              "suffixImageHeight": 16,
+                  "suffixImageWidth": 16,
+                  "action": "select_journey_date",
+                  "key": "journeyDate",
+                  "enabled": false
+                }
+              },
+              {
+                "type": "SizedBox",
+                "height": 8
+              },
+              {
+                "type": "SizedBox",
+                "height": 60,
+                "child": {
+                  "type": "InputField",
+                  "label": "Return Date",
+                  "suffixImage": "https://ik.imagekit.io/ekpuecrvih/Vector.png?updatedAt=1752745434425",
+                  "borderColor": "#CACED3",
+                  "fontSize": 14,
+                  "fontWeight": "normal",
+                  "fontStyle": "normal",
+                  "textColor": "#000000",
+                  "hintColor": "#757575",
+                  "letterSpacing": 0.5,
+                  "wordSpacing": 1,
+                  "borderRadius": 12,
+                  "contentPadding": 16,
+                  "filled": true,
+                  "fillColor": "#FFFFFF",
+                  "suffixImageHeight": 16,
+                  "suffixImageWidth": 16,
+                  "action": "select_return_date",
+                  "key": "returnDate",
+                  "enabled": false
+                }
+              },
+              {
+                "type": "Padding",
+                "padding": {
+                  "top": 8
+                },
+                "child": {
+                  "type": "Button",
+                  "label": "Search",
+                  "color": "#FF573C",
+                  "height": 48,
+                  "fontSize": 14,
+                  "fontWeight": "bold",
+                  "width": "match_parent",
+                  "textColor": "#FFFFFF",
+                  "borderRadius": 10,
+                   "action": "search_service"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "Column",
+      "crossAxisAlignment": "center",
+      "children": [
+        {
+          "type": "Padding",
+          "padding": {
+            "left": 50,
+            "right": 50,
+            "top": 20,
+            "bottom": 0
+          },
+          "child": {
+          "type": "Text",
+          "value": "Making your bus\njourney better",
+          "textAlign": "center",
+          "style": {
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "fontStyle": "normal",
+            "color": "#000000",
+            "letterSpacing": 1.2,
+            "wordSpacing": 2
+          }
+        }},
+        {"type":"SizedBox","height":10},
+        {
+          "type": "Text",
+          "value": "Check out our bus amenities",
+          "textAlign": "center",
+          "style": {
+            "fontSize": 14,
+            "fontWeight": "normal",
+            "fontStyle": "normal",
+            "color": "#FF573C",
+            "letterSpacing": 1.2,
+            "wordSpacing": 2
+          }
+        },
+        {
+          "type": "Padding",
+          "padding": {
+            "left": 50,
+            "right": 50,
+            "top": 20,
+            "bottom": 20
+          },
+          "child": {
+            "type": "Column",
+            "mainAxisAlignment": "center",
+            "crossAxisAlignment": "center",
+            "children": [
+              {
+                "type": "Container",
+                "width": "match_parent",
+                "margin": {
+                  "bottom": 20
+                },
+                  "color": "#FFFFFF",
+                  "borderRadius": 15,
+                    "borderColor": "#CACED3",
+                    "borderWidth": 1,
+                "child": {
+                  "type": "Padding",
+                  "padding": {
+                    "top": 24,
+                    "bottom": 24,
+                    "left": 12,
+                    "right": 12
+                  },
+                  "child": {
+                    "type": "Row",
+                    "mainAxisAlignment": "center",
+                    "crossAxisAlignment": "center",
+                    "mainAxisSize": "min",
+                    "children": [
+                      {
+                        "type": "Image",
+                        "url": "https://ik.imagekit.io/ekpuecrvih/real-time%201.png?updatedAt=1752753485241",
+                        "height": 40,
+                        "width": 40
+                      },
+                      {
+                        "type": "SizedBox",
+                        "width": 12
+                      },
+                      {
+                        "type": "Text",
+                        "value": "Charging Points",
+                        "textAlign": "center",
+                        "overflow": "ellipsis",
+                        "maxLines": 2,
+                        "softWrap": true,
+                        "style": {
+                          "fontSize": 14,
+                          "fontWeight": "w600",
+                          "color": "#000000",
+                          "letterSpacing": 0.2,
+                          "height": 1.3
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "type": "Container",
+                "width": "match_parent",
+                "margin": {
+                  "bottom": 20
+                },
+                "decoration": {
+                  "color": "#FFFFFF",
+                  "borderRadius": 15,
+                "borderColor": "#CACED3",
+                    "borderWidth": 1
+                },
+                "child": {
+                  "type": "Padding",
+                  "padding": {
+                    "top": 24,
+                    "bottom": 24,
+                    "left": 12,
+                    "right": 12
+                  },
+                  "child": {
+                    "type": "Row",
+                    "mainAxisAlignment": "center",
+                    "crossAxisAlignment": "center",
+                    "mainAxisSize": "min",
+                    "children": [
+                      {
+                        "type": "Image",
+                        "url": "https://ik.imagekit.io/ekpuecrvih/real-time%201.png?updatedAt=1752753485241",
+                        "height": 40,
+                        "width": 40
+                      },
+                      {
+                        "type": "SizedBox",
+                        "width": 12
+                      },
+                      {
+                        "type": "Text",
+                        "value": "Luggage Safety",
+                        "textAlign": "center",
+                        "overflow": "ellipsis",
+                        "maxLines": 2,
+                        "softWrap": true,
+                        "style": {
+                          "fontSize": 14,
+                          "fontWeight": "w600",
+                          "color": "#000000",
+                          "letterSpacing": 0.2,
+                          "height": 1.3
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "type": "Container",
+                "width": "match_parent",
+                "decoration": {
+                  "color": "#FFFFFF",
+                  "borderRadius": 15,
+                   "borderColor": "#CACED3",
+                    "borderWidth": 1
+                },
+                "child": {
+                  "type": "Padding",
+                  "padding": {
+                    "top": 24,
+                    "bottom": 24,
+                    "left": 12,
+                    "right": 12
+                  },
+                  "child": {
+                    "type": "Row",
+                    "mainAxisAlignment": "center",
+                    "crossAxisAlignment": "center",
+                    "mainAxisSize": "min",
+                    "children": [
+                      {
+                        "type": "Image",
+                        "url": "https://ik.imagekit.io/ekpuecrvih/real-time%201.png?updatedAt=1752753485241",
+                        "height": 40,
+                        "width": 40
+                      },
+                      {
+                        "type": "SizedBox",
+                        "width": 12
+                      },
+                      {
+                        "type": "Text",
+                        "value": "Live Bus Tracking",
+                        "textAlign": "center",
+                        "overflow": "ellipsis",
+                        "maxLines": 2,
+                        "softWrap": true,
+                        "style": {
+                          "fontSize": 14,
+                          "fontWeight": "w600",
+                          "color": "#000000",
+                          "letterSpacing": 0.2,
+                          "height": 1.3
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "Column",
+      "crossAxisAlignment": "center",
+      "children": [
+        {
+          "type": "Padding",
+          "padding": {
+            "left": 50,
+            "right": 50,
+            "top": 20,
+            "bottom": 0
+          },
+          "child": {
+            "type": "Text",
+            "value": "Why Choose Us?",
+            "textAlign": "center",
+            "style": {
+              "fontSize": 20,
+              "fontWeight": "bold",
+              "fontStyle": "normal",
+              "color": "#000000",
+              "letterSpacing": 1.2,
+              "wordSpacing": 2
+            }
+          }
+        },
+        {
+          "type": "Padding",
+          "padding": {
+            "left": 50,
+            "right": 50,
+            "top": 0,
+            "bottom": 20
+          },
+          "child": {
+            "type": "Text",
+            "value": "See how we go an extra mile to give you best experience",
+            "textAlign": "center",
+            "style": {
+              "fontSize": 14,
+              "fontWeight": "bold",
+              "fontStyle": "normal",
+              "color": "#FF573C",
+              "letterSpacing": 1.2,
+              "wordSpacing": 2
+            }
+          }
+        },
+        {
+          "type": "ListView",
+          "children": [
+            {
+              "type": "SizedBox",
+              "color": "#F9F9F9",
+              "child": {
+                "type": "Padding",
+                "padding": 20,
+                "child": {
+                  "type": "Column",
+                  "crossAxisAlignment": "center",
+                  "children": [
+                    {
+                      "type": "Image",
+                      "url": "https://ik.imagekit.io/ekpuecrvih/real-time%201.png?updatedAt=1752753485241",
+                      "height": 50,
+                      "width": 50
+                    },
+                    {
+                      "type": "Text",
+                      "value": "Customer Gratification",
+                      "textAlign": "start",
+                      "style": {
+                        "fontSize": 14,
+                        "fontWeight": "bold",
+                        "color": "#000000",
+                        "wordSpacing": 2
+                      }
+                    },
+                    {
+                      "type": "Text",
+                      "value": "We value our customer smiles over anything else, and offer services that go beyond industry standards.",
+                      "textAlign": "center",
+                      "style": {
+                        "fontSize": 12,
+                        "fontStyle": "normal",
+                        "color": "#000000",
+                        "letterSpacing": 1.2,
+                        "wordSpacing": 2
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "type": "SizedBox",
+              "color": "#E6604A",
+              "child": {
+                "type": "Padding",
+                "padding": 20,
+                "child": {
+                  "type": "Column",
+                  "crossAxisAlignment": "center",
+                  "children": [
+                    {
+                      "type": "Image",
+                      "url": "https://ik.imagekit.io/ekpuecrvih/real-time%201.png?updatedAt=1752753485241",
+                      "height": 50,
+                      "width": 50
+                    },
+                    {
+                      "type": "Text",
+                      "value": "Privacy First",
+                      "textAlign": "start",
+                      "style": {
+                        "fontSize": 14,
+                        "fontWeight": "bold",
+                        "color": "#FFFFFF",
+                        "wordSpacing": 2
+                      }
+                    },
+                    {
+                      "type": "Text",
+                      "value": "Your privacy is of utmost importance to us! Rest assured, your personal details are safe with us, no matter what.",
+                      "textAlign": "center",
+                      "style": {
+                        "fontSize": 12,
+                        "fontStyle": "normal",
+                        "color": "#FFFFFF",
+                        "letterSpacing": 1.2,
+                        "wordSpacing": 2
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "type": "SizedBox",
+              "color": "#052A63",
+              "child": {
+                "type": "Padding",
+                "padding": 20,
+                "child": {
+                  "type": "Column",
+                  "crossAxisAlignment": "center",
+                  "children": [
+                    {
+                      "type": "Image",
+                      "url": "https://ik.imagekit.io/ekpuecrvih/real-time%201.png?updatedAt=1752753485241",
+                      "height": 50,
+                      "width": 50
+                    },
+                    {
+                      "type": "Text",
+                      "value": "Safety & Punctuality",
+                      "textAlign": "start",
+                      "style": {
+                        "fontSize": 14,
+                        "fontWeight": "bold",
+                        "color": "#FFFFFF",
+                        "wordSpacing": 2
+                      }
+                    },
+                    {
+                      "type": "Text",
+                      "value": "You’re in safe hands! Ride in style and always be on time with us.",
+                      "textAlign": "center",
+                      "style": {
+                        "fontSize": 12,
+                        "fontStyle": "normal",
+                        "color": "#FFFFFF",
+                        "letterSpacing": 1.2,
+                        "wordSpacing": 2
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Column",
+      "crossAxisAlignment": "center",
+      "children": [
+        {
+          "type": "Text",
+          "value": "Offers And Deals",
+          "padding": {
+            "top": 40,
+            "right": 10,
+            "left": 10
+          },
+          "textAlign": "center",
+          "overflow": "ellipsis",
+          "maxLines": 2,
+          "softWrap": true,
+          "style": {
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "fontStyle": "normal",
+            "color": "#000000",
+            "letterSpacing": 1.2,
+            "wordSpacing": 2
+          }
+        },
+        {
+          "type": "Text",
+          "value": "Get best discounts with our offers and deals",
+          "textAlign": "center",
+          "style": {
+            "fontSize": 14,
+            "color": "#FF0000"
+          }
+        },
+        {
+          "type": "BannerSlider",
+          "height": 500,
+          "images": [
+            "https://ik.imagekit.io/ekpuecrvih/Coupon%202.png?updatedAt=1753167827050",
+            "https://ik.imagekit.io/ekpuecrvih/Coupon%202.png?updatedAt=1753167827050",
+            "https://ik.imagekit.io/ekpuecrvih/Coupon%202.png?updatedAt=1753167827050"
+          ],
+          "autoPlay": true,
+          "interval": 1000,
+          "viewportFraction": 0.65,
+          "imagePadding": 20.0,
+          "fit": "contain"
+        }
+      ]
+    },
+    {
+  "type": "ListView",
+  "children": [
+    {
+      "type": "Padding",
+      "padding": 20.0,
+      "child": {
+        "type": "Column",
+        "crossAxisAlignment": "center",
+        "children": [
+          {
+            "type": "Text",
+            "value": "Explore popular packages",
+            "textAlign": "center",
+            "style": {
+              "fontSize": 20,
+              "fontWeight": "bold",
+              "color": "#2B0B08"
+            }
+          },
+          {
+            "type": "SizedBox",
+            "height": 8
+          },
+          {
+            "type": "Text",
+            "value": "Get best deals at affordable prices",
+            "textAlign": "center",
+            "style": {
+              "fontSize": 14,
+              "color": "#F44336"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "Padding",
+      "padding": {
+        "left": 40,
+        "bottom":10,
+        "right": 40,
+        "top": 0
+      },
+      "child": {
+        "type": "SizedBox",
+        "borderColor": "#CACED3",
+        "color": "#FFFFFF",
+        "borderWidth": 1,
+        "borderRadius": 12,
+        "child": {
+          "type": "Padding",
+          "padding": {
+            "top": 15,
+            "bottom": 15,
+            "left": 15,
+            "right": 15
+          },
+          "child": {
+            "type": "Row",
+            "mainAxisSize": "min",
+            "children": [
+              {
+                "type": "Image",
+                "url": "https://ik.imagekit.io/ekpuecrvih/82ab7661027d8f0a9304de361730697d19c038a6.png?updatedAt=1754894491622",
+                "height": 90,
+                "width": 110,
+                "borderRadius": 8
+              },
+              {
+                "type": "SizedBox",
+                "width": 10
+              },
+              {
+                "type": "Expanded",
+                "child": {
+                  "type": "Column",
+                  "crossAxisAlignment": "start",
+                  "crossAxisSize": "min",
+                  "children": [
+                    {
+                      "type": "Text",
+                      "value": "Gokarna",
+                      "style": {
+                        "fontSize": 18,
+                        "fontWeight": "bold",
+                        "color": "#000000"
+                      }
+                    },
+                    {
+                      "type": "Text",
+                      "value": "Package starting at ₹999 per person",
+                      "style": {
+                        "fontSize": 14,
+                        "color": "#000000"
+                      }
+                    },
+                   {
+                    "type":"SizedBox",
+                    "height":20
+                   },
+                    {
+                      "type":"Row",
+                      "mainAxisAlignment":"end",
+                      "children":[
+                        {
+                          "type": "Text",
+                          "value": "View Packages",
+                          "style": {
+                            "fontSize": 14,
+                            "fontWeight": "bold",
+                            "color": "#1976D2"
+                      }
+                    }
+                  ]
+                }
+              ]
+          }
+        }
+  ]}
+    }}},
+    {
+      "type": "Padding",
+      "padding": {
+        "left": 40,
+        "bottom":10,
+        "right": 40,
+        "top": 0
+      },
+      "child": {
+        "type": "SizedBox",
+        "borderColor": "#CACED3",
+        "color": "#FFFFFF",
+        "borderWidth": 1,
+        "borderRadius": 12,
+        "child": {
+          "type": "Padding",
+          "padding": {
+            "top": 15,
+            "bottom": 15,
+            "left": 15,
+            "right": 15
+          },
+          "child": {
+            "type": "Row",
+            "mainAxisSize": "min",
+            "children": [
+              {
+                "type": "Image",
+                "url": "https://ik.imagekit.io/ekpuecrvih/82ab7661027d8f0a9304de361730697d19c038a6.png?updatedAt=1754894491622",
+                "height": 90,
+                "width": 110,
+                "borderRadius": 8
+              },
+              {
+                "type": "SizedBox",
+                "width": 10
+              },
+              {
+                "type": "Expanded",
+                "child": {
+                  "type": "Column",
+                  "crossAxisAlignment": "start",
+                  "crossAxisSize": "min",
+                  "children": [
+                    {
+                      "type": "Text",
+                      "value": "Gokarna",
+                      "style": {
+                        "fontSize": 18,
+                        "fontWeight": "bold",
+                        "color": "#000000"
+                      }
+                    },
+                    {
+                      "type": "Text",
+                      "value": "Package starting at ₹999 per person",
+                      "style": {
+                        "fontSize": 14,
+                        "color": "#000000"
+                      }
+                    },
+                    {
+                      "type":"SizedBox",
+                      "height":20
+                    },
+                    {
+                      "type":"Row",
+                      "mainAxisAlignment":"end",
+                      "children":[
+                        {
+                          "type": "Text",
+                          "value": "View Packages",
+                          "style": {
+                            "fontSize": 14,
+                            "fontWeight": "bold",
+                            "color": "#1976D2"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]}
+        }}}
+  ]
+},
+    {
+      "type": "Column",
+      "crossAxisAlignment": "center",
+      "children": [
+        {
+          "type": "Text",
+          "value": "Our customers say?",
+          "padding": {
+            "top": 40,
+            "right": 10,
+            "left": 10
+          },
+          "textAlign": "center",
+          "overflow": "ellipsis",
+          "maxLines": 2,
+          "softWrap": true,
+          "style": {
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "fontStyle": "normal",
+            "color": "#000000",
+            "letterSpacing": 1.2,
+            "wordSpacing": 2
+          }
+        },
+        {
+          "type": "Text",
+          "value": "Testimonials",
+          "textAlign": "center",
+          "style": {
+            "fontSize": 14,
+            "color": "#FF573C"
+          }
+        },
+        {
+          "type": "WidgetSlider",
+          "height": 450,
+          "images": [
+            {
+              "type": "Container",
+              "color": "#F3F5F8",
+              "borderRadius": 0,
+              "child": {
+                "type": "Column",
+                "mainAxisSize": "max",
+                "mainAxisAlignment": "start",
+                "crossAxisAlignment": "start",
+                "children": [
+                  {
+                    "type": "Padding",
+                    "padding": {
+                      "top": 25,
+                      "bottom": 0,
+                      "left": 15,
+                      "right": 15
+                    },
+                    "child": {
+                      "type": "Image",
+                      "url": "https://ik.imagekit.io/ekpuecrvih/Frame%2021269.png?updatedAt=1754967485467",
+                      "borderRadius": 15
+                    }
+                  },
+                  {
+                    "type": "Padding",
+                    "padding": {
+                      "top": 40,
+                      "bottom": 0,
+                      "left": 15,
+                      "right": 15
+                    },
+                    "child": {
+                      "type": "Text",
+                      "value": "“This is a new bus and we traveled from Bangalore to Hyderabad. The travel experience was good. The berth was comfortable and the linen was clean. Each berth has a charging point and an individual TV, although without the headphones it's not much use.” ",
+                      "textAlign": "start",
+                      "style": {
+                        "fontSize": 10,
+                        "fontWeight": "normal",
+                        "color": "#000000",
+                        "maxLines": 2
+                      }
+                    }
+                  },
+                  {
+                    "type": "SizedBox",
+                    "height": 20
+                  },
+                  {
+                    "type": "Padding",
+                    "padding": {
+                      "top": 20,
+                      "bottom": 0,
+                      "left": 15,
+                      "right": 15
+                    },
+                    "child": {
+                      "type": "Text",
+                      "value": "Sakshi",
+                      "textAlign": "start",
+                      "style": {
+                        "fontSize": 10,
+                        "fontWeight": "normal",
+                        "color": "#000000",
+                        "maxLines": 2
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "Container",
+              "color": "#F3F5F8",
+              "borderRadius": 0,
+              "child": {
+                "type": "Column",
+                "mainAxisSize": "max",
+                "mainAxisAlignment": "start",
+                "crossAxisAlignment": "start",
+                "children": [
+                  {
+                    "type": "Padding",
+                    "padding": {
+                      "top": 25,
+                      "bottom": 0,
+                      "left": 15,
+                      "right": 15
+                    },
+                    "child": {
+                      "type": "Image",
+                      "url": "https://ik.imagekit.io/ekpuecrvih/Frame%2021269.png?updatedAt=1754967485467",
+                      "borderRadius": 15
+                    }
+                  },
+                  {
+                    "type": "Padding",
+                    "padding": {
+                      "top": 40,
+                      "bottom": 0,
+                      "left": 15,
+                      "right": 15
+                    },
+                    "child": {
+                      "type": "Text",
+                      "value": "“This is a new bus and we traveled from Bangalore to Hyderabad. The travel experience was good. The berth was comfortable and the linen was clean. Each berth has a charging point and an individual TV, although without the headphones it's not much use.” ",
+                      "textAlign": "start",
+                      "style": {
+                        "fontSize": 10,
+                        "fontWeight": "normal",
+                        "color": "#000000",
+                        "maxLines": 2
+                      }
+                    }
+                  },
+                  {
+                    "type": "SizedBox",
+                    "height": 20
+                  },
+                  {
+                    "type": "Padding",
+                    "padding": {
+                      "top": 20,
+                      "bottom": 0,
+                      "left": 15,
+                      "right": 15
+                    },
+                    "child": {
+                      "type": "Text",
+                      "value": "Sakshi",
+                      "textAlign": "start",
+                      "style": {
+                        "fontSize": 10,
+                        "fontWeight": "normal",
+                        "color": "#000000",
+                        "maxLines": 2
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "autoPlay": true,
+          "interval": 2000,
+          "viewportFraction": 0.65,
+          "imagePadding": 10,
+          "fit": "contain",
+          "enlargeCenterPage": true
+        }
+      ]
+    }
+  ]
+}
+

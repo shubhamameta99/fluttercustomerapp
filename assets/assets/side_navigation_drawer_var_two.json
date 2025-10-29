@@ -1,0 +1,169 @@
+{
+  "type": "Drawer",
+  "backgroundColor": "#FFFFFF",
+  "elevation": 16.0,
+  "width": "match_parent",
+  "gradient": {
+    "type": "linear",
+    "begin": "topCenter",
+    "end": "bottomCenter",
+    "colors": [
+      "#FD3A2D",
+      "#FFA12C"
+    ]
+  },
+    "child": {
+      "type": "Padding",
+      "padding": {
+        "top": 20.0
+      },
+      "child": {
+        "type": "Column",
+        "crossAxisAlignment": "stretch",
+        "mainAxisSize": "max",
+        "children": [
+          {
+            "type": "Container",
+            "padding": {
+              "top": 20.0,
+              "right": 20.0,
+              "left": 20.0,
+              "bottom": 10.0
+            },
+            "child": {
+              "type": "Row",
+              "mainAxisAlignment": "end",
+              "crossAxisAlignment": "center",
+              "children": [
+               {
+  "type": "GestureDetector",
+  "onTap": "close_drawer",
+  "child": {
+    "type": "Icon",
+    "iconData": "cancel_outlined",
+    "size": 24.0,
+    "color": "#000000"
+  }
+}
+              ]
+            }
+          },
+          {
+            "type": "Expanded",
+            "child": {
+              "type": "Column",
+              "crossAxisAlignment": "center",
+              "padding": {
+                "top": 16.0
+              },
+              "children": [
+                {
+                  "type": "DrawerItem",
+                  "action": "navigate_home",
+                  "title": "Home",
+                  "selectedGradientStart": "#FBF1F0",
+                  "selectedGradientEnd": "#FBF1F0",
+                  "selectedGradientCenter": "#F29E8E",
+                  "textColor": "#000000",
+                  "textAlign": "center"
+                },
+                {
+                  "type": "DrawerItem",
+                  "action": "navigate_about",
+                  "title": "About",
+                  "selectedGradientStart": "#FBF1F0",
+                  "selectedGradientEnd": "#FBF1F0",
+                  "selectedGradientCenter": "#F29E8E",
+                  "textColor": "#000000",
+                  "textAlign": "center"
+                },
+                {
+                  "type": "DrawerItem",
+                  "action": "navigate_services",
+                  "title": "Services",
+                  "selectedGradientStart": "#FBF1F0",
+                  "selectedGradientEnd": "#FBF1F0",
+                  "selectedGradientCenter": "#F29E8E",
+                  "textColor": "#000000",
+                  "textAlign": "center"
+                },
+                {
+                  "type": "DrawerItem",
+                  "action": "navigate_contact",
+                  "title": "Contact",
+                  "selectedGradientStart": "#FBF1F0",
+                  "selectedGradientEnd": "#FBF1F0",
+                  "selectedGradientCenter": "#F29E8E",
+                  "textColor": "#000000",
+                  "textAlign": "center"
+                },
+                {
+                  "type": "DrawerItem",
+                  "action": "navigate_help",
+                  "title": "Help",
+                  "selectedGradientStart": "#FBF1F0",
+                  "selectedGradientEnd": "#FBF1F0",
+                  "selectedGradientCenter": "#F29E8E",
+                  "textColor": "#000000",
+                  "textAlign": "center"
+                },
+                {
+                  "type": "DrawerItem",
+                  "action": "navigate_settings",
+                  "title": "Settings",
+                  "selectedGradientStart": "#FBF1F0",
+                  "selectedGradientEnd": "#FBF1F0",
+                  "selectedGradientCenter": "#F29E8E",
+                  "textColor": "#000000",
+                  "textAlign": "center"
+                }
+              ]
+            }
+          },
+          {
+            "type": "Spacer"
+          },
+          {
+            "type": "Row",
+            "mainAxisAlignment": "center",
+            "children": [
+              {
+                "type": "Container",
+                "margin": {
+                  "bottom": 15.0
+                },
+                "child": {
+                  "type": "Button",
+                  "label": "Login",
+                  "width": 150.0,
+                  "borderColor": "#FF4800",
+                  "borderWidth": 2.0,
+                  "textColor": "#FF4800",
+                  "color": "#FFFFFF",
+                  "borderRadius": 25.0,
+                  "height": 50.0,
+                  "action": "navigate_login"
+                }
+              },
+              {
+                "type": "SizedBox",
+                "width": 20.0
+              },
+              {
+                "type": "Container",
+                "child": {
+                  "type": "Button",
+                  "width": 150.0,
+                  "label": "Sign Up",
+                  "color": "#FF4800",
+                  "textColor": "#FFFFFF",
+                  "borderRadius": 25.0,
+                  "height": 50.0,
+                  "action": "navigate_signup"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }}

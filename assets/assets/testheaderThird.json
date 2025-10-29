@@ -1,0 +1,252 @@
+{
+  "type": "Column",
+  "mainAxisAlignment": "center",
+  "crossAxisAlignment": "start",
+  "mainAxisSize": "max",
+  "textDirection": "ltr",
+  "verticalDirection": "down",
+  "children": [
+    {
+      "type": "Stack",
+      "height": 650,
+      "children": [
+        {
+          "type": "Positioned",
+          "top": 0,
+          "left": 0,
+          "right": 0,
+          "child": {
+            "type": "BannerSlider",
+            "height": 400,
+            "images": [
+              "https://images.unsplash.com/photo-1572675339312-3e8b094a544d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+              "https://media.istockphoto.com/id/1757170694/photo/public-commuter-buses-at-a-busy-bus-terminal-in-singapore.jpg?s=1024x1024&w=is&k=20&c=QdTS4ai0Y7tn6OFOvxsUL88PUv3udoU8kD2H1ckEG3o=",
+              "https://media.istockphoto.com/id/939317810/photo/bus-parking-in-a-depot.jpg?s=1024x1024&w=is&k=20&c=zwwumOL73clg_zZfw5-K6CDU4K8O-VmelX28JyMCcLg="
+            ],
+            "autoPlay": true,
+            "interval": 1500,
+            "viewportFraction": 1.0
+          }},
+        {
+          "type": "Positioned",
+          "top": 135,
+          "left": 25,
+          "right": 25,
+          "child": {
+            "type": "Card",
+            "borderRadius": 30,
+            "color": "#FFFFFF",
+            "child":     {
+              "type": "Padding",
+              "padding": 16,
+              "child": {
+                "type": "Column",
+                "children": [
+                  {
+                    "type": "Text",
+                    "value": "Book your bus ticket",
+                    "padding": 12,
+                    "textAlign": "center",
+                    "overflow": "ellipsis",
+                    "maxLines": 1,
+                    "softWrap": true,
+                    "style": {
+                      "fontSize": 20,
+                      "fontWeight": "bold",
+                      "fontStyle": "normal",
+                      "color": "#000000",
+                      "letterSpacing": 1.2,
+                      "wordSpacing": 2
+                    }
+                  },
+                  {
+                    "type": "Stack",
+                    "height": 136,
+                    "children": [
+                      {
+                        "type": "Column",
+                        "children": [
+                          {
+                            "type": "SizedBox",
+                            "height": 50,
+                            "child": {
+                              "type": "InputField",
+                              "label": "Source",
+                              "borderColor": "#CACED3",
+                              "fontSize": 14,
+                              "fontWeight": "normal",
+                              "fontStyle": "normal",
+                              "textColor": "#000000",
+                              "hintColor": "#000000",
+                              "letterSpacing": 1.2,
+                              "wordSpacing": 2.0,
+                              "enabled": true,
+                              "borderRadius": 20,
+                              "contentPadding": 20,
+                              "filled": true,
+                              "fillColor": "#FFFFFF",
+                              "action": "select_source",
+                              "key": "source"
+                            }
+                          },
+                          {
+                            "type": "SizedBox",
+                            "height": 18
+                          },
+                          {
+                            "type": "SizedBox",
+                            "height": 50,
+                            "child": {
+                              "type": "InputField",
+                              "label": "Destination",
+                              "borderColor": "#CACED3",
+                              "fontSize": 14,
+                              "fontWeight": "normal",
+                              "fontStyle": "normal",
+                              "textColor": "#000000",
+                              "hintColor": "#000000",
+                              "letterSpacing": 1.2,
+                              "wordSpacing": 2.0,
+                              "borderRadius": 20,
+                              "contentPadding": 20,
+                              "filled": true,
+                              "fillColor": "#FFFFFF",
+                              "action": "select_destination",
+                              "key": "destination",
+                              "enabled": true
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "type": "Positioned",
+                        "top": 40,
+                        "right": 20,
+                        "width": 40,
+                        "height": 40,
+                        "child": {
+                          "type": "Container",
+                          "width": 29,
+                          "height": 20,
+                          "decoration": {
+                            "color": "#FFFFFF",
+                            "borderRadius": 20,
+                            "boxShadow": [
+                              {
+                                "color": "#00000020",
+                                "offset": {"x": 0, "y": 1},
+                                "blurRadius": 1,
+                                "spreadRadius": 0
+                              }
+                            ]
+                          },
+                          "child": {
+                            "type": "AnimatedRotation",
+                            "turns": 0,
+                            "duration": 500,
+                            "curve": "easeInOut",
+                            "animationKey": "swap_rotation",
+                            "child": {
+                              "type": "IconButton",
+                              "action": "swap_source_destination",
+                              "iconSize": 24,
+                              "color": "#000000",
+                              "padding": 9,
+                              "icon": {
+                                "type": "Icon",
+                                "iconData": "Icons.swap_vert",
+                                "size": 24,
+                                "color": "#000000"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+
+                  {
+                    "type": "SizedBox",
+                    "height": 60,
+                    "child": {
+                      "type": "InputField",
+                      "label": "Onward Date",
+                      "suffixImage": "https://ik.imagekit.io/ekpuecrvih/Vector.png?updatedAt=1752745434425",
+                      "borderColor": "#CACED3",
+                      "fontSize": 14,
+                      "fontWeight": "normal",
+                      "fontStyle": "normal",
+                      "textColor": "#000000",
+                      "hintColor": "#757575",
+                      "letterSpacing": 1.2,
+                      "wordSpacing": 2.0,
+                      "borderRadius": 20,
+                      "contentPadding": 20,
+
+                      "filled": true,
+                      "fillColor": "#FFFFFF",
+                      "suffixImageHeight": 16,
+                      "suffixImageWidth": 16,
+                      "action": "select_journey_date",
+                      "key": "journeyDate",
+                      "enabled": false
+                    }
+                  },
+                  {
+                    "type": "SizedBox",
+                    "height": 8
+                  },
+                  {
+                    "type": "SizedBox",
+                    "height": 60,
+                    "child": {
+                      "type": "InputField",
+                      "label": "Return Date",
+                      "suffixImage": "https://ik.imagekit.io/ekpuecrvih/Vector.png?updatedAt=1752745434425",
+                      "borderColor": "#CACED3",
+                      "fontSize": 14,
+                      "fontWeight": "normal",
+                      "fontStyle": "normal",
+                      "textColor": "#000000",
+                      "hintColor": "#757575",
+                      "letterSpacing": 1.2,
+                      "wordSpacing": 2.0,
+                      "borderRadius": 20,
+                      "contentPadding": 20,
+                      "filled": true,
+                      "fillColor": "#FFFFFF",
+                      "suffixImageHeight": 16,
+                      "suffixImageWidth": 16,
+                      "action": "select_return_date",
+                      "key": "returnDate",
+                      "enabled": false
+                    }
+                  },
+                  {
+                    "type": "Padding",
+                    "padding": {
+                      "top": 8
+                    },
+                    "child": {
+                      "type": "Button",
+                      "label": "Search",
+                      "color": "#FF573C",
+                      "height": 48,
+                      "fontSize": 14,
+                      "fontWeight": "bold",
+                      "width": "match_parent",
+                      "textColor": "#FFFFFF",
+                      "borderRadius": 10,
+                      "action": "search_service"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+
+      ]
+    }
+  ]
+}

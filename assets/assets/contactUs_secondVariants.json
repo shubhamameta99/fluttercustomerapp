@@ -1,0 +1,320 @@
+{
+  "type": "Padding",
+  "padding": {
+    "left": 20,
+    "right": 20
+  },
+  "child":
+  {
+
+    "type": "Column",
+    "mainAxisAlignment": "center",
+    "crossAxisAlignment": "center",
+    "mainAxisSize": "max",
+    "children": [
+      {
+        "type": "Text",
+        "value": "Contact Us",
+        "style": {
+          "fontSize": 20,
+          "fontWeight": "bold",
+          "color": "#1D0404"
+        }
+      },
+      {
+        "type": "SizedBox",
+        "height": 14
+      },
+      {
+        "type": "Text",
+        "value": "Reach out to us for any inquiry",
+        "style": {
+          "fontSize": 14,
+          "fontWeight": "bold",
+          "color": "#FF573C"
+        }
+      },
+      {
+        "type": "SizedBox",
+        "height": 24
+      },
+      {
+        "type": "SizedBox",
+        "height": 50,
+        "child": {
+          "type": "InputField",
+          "label": "Your Name",
+          "borderColor": "#CACED3",
+          "fontSize": 14,
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "textColor": "#000000",
+          "hintColor": "#B0B6BE",
+          "letterSpacing": 0.5,
+          "wordSpacing": 1,
+          "enabled": true,
+          "borderRadius": 12,
+          "contentPadding": 16,
+          "filled": true,
+          "fillColor": "#FFFFFF"}
+      },
+      {
+        "type": "SizedBox",
+        "height": 14
+      },
+      {
+        "type": "SizedBox",
+        "height": 50,
+        "child": {
+          "type": "InputField",
+          "label": "Your Email",
+          "borderColor": "#CACED3",
+          "fontSize": 14,
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "textColor": "#000000",
+          "hintColor": "#B0B6BE",
+          "letterSpacing": 0.5,
+          "wordSpacing": 1,
+          "enabled": true,
+          "borderRadius": 12,
+          "contentPadding": 16,
+          "filled": true,
+          "fillColor": "#FFFFFF"}
+      },
+      {
+        "type": "SizedBox",
+        "height": 14
+      },
+      {
+        "type": "SizedBox",
+        "height": 50,
+        "child": {
+          "type": "InputField",
+          "label": "Your Message",
+          "borderColor": "#CACED3",
+          "fontSize": 14,
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "textColor": "#000000",
+          "hintColor": "#B0B6BE",
+          "letterSpacing": 0.5,
+          "maxLines": 5,
+          "wordSpacing": 1,
+          "enabled": true,
+          "borderRadius": 12,
+          "contentPadding": 16,
+          "filled": true,
+          "fillColor": "#FFFFFF"}
+      },
+      {
+        "type": "Padding",
+        "padding": {
+          "top": 8
+        },
+        "child": {
+          "type": "Button",
+          "label": "Send Enquiry",
+          "color": "#FF573C",
+          "height": 50,
+          "fontSize": 14,
+          "fontWeight": "bold",
+          "width": "match_parent",
+          "textColor": "#FFFFFF",
+          "borderRadius": 10
+
+        }
+      },
+      {
+        "type": "SizedBox",
+        "height": 14
+      },
+
+
+      {
+        "type": "Image",
+        "url": "https://ik.imagekit.io/jlqtebhzy/image_map.png?updatedAt=1760075359376",
+        "fit": "cover",
+        "width": "match_parent",
+        "height": 150
+
+      },
+      {
+        "type": "SizedBox",
+        "height": 20
+      },
+
+      {
+        "type": "Container",
+        "height": 300,
+        "color": "#F3F5F8",
+        "width": "match_parent",
+        "child": {
+          "type": "Column",
+          "children": [
+            {
+              "type": "Text",
+              "value": "You can also Contact Us",
+              "style": {
+                "fontSize": 20,
+                "fontWeight": "bold",
+                "color": "#1D0404"
+              }
+            },
+            {
+              "type": "SizedBox",
+              "height": 20
+            },
+            {
+              "type": "Row",
+              "children": [
+                {
+                  "type": "Container",
+                  "padding": {
+                    "top": 15,
+                    "right": 10,
+                    "bottom": 5,
+                    "left": 15
+                  },
+                  "child": {
+                    "type": "Image",
+                    "url": "https://ik.imagekit.io/jlqtebhzy/Phone.png?updatedAt=1759230497755",
+                    "width": 25,
+                    "height": 25
+                  }
+                },
+                {
+                  "type": "Column",
+                  "children": [
+
+                    {
+                      "type": "Text",
+                      "value": "Address",
+                      "style": {
+                        "fontSize": 14,
+                        "color": "#4F4F4F",
+                        "fontWeight": "bold",
+                        "marginBottom": 10
+                      }
+                    },
+                    {
+                      "type": "Text",
+                      "value": "xyz travels, Near bus stop,\n Kormangala, Bangalore, Karnataka",
+                      "softWrap": false,
+                      "style": {
+                        "fontSize": 12,
+                        "color": "#4F4F4F"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "SizedBox",
+              "height": 14
+            },
+            {
+              "type": "Row",
+              "children": [
+                {
+                  "type": "Container",
+                  "padding": {
+                    "top": 15,
+                    "right": 10,
+                    "bottom": 5,
+                    "left": 15
+                  },
+                  "child": {
+                    "type": "Image",
+                    "url": "https://ik.imagekit.io/jlqtebhzy/email.png?updatedAt=1759230547359",
+                    "width": 25,
+                    "height": 25
+                  }
+                },
+                {
+                  "type": "Column",
+                  "children": [
+
+                    {
+                      "type": "Text",
+                      "value": "E-Mail",
+                      "style": {
+                        "fontSize": 14,
+                        "color": "#4F4F4F",
+                        "fontWeight": "bold",
+                        "marginBottom": 10
+                      }
+                    },
+                    {
+                      "type": "Text",
+                      "value": "feedback@travel.in",
+                      "style": {
+                        "fontSize": 12,
+                        "color": "#4F4F4F"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "SizedBox",
+              "height": 14
+            },
+            {
+              "type": "Row",
+              "children": [
+                {
+                  "type": "Container",
+                  "padding": {
+                    "top": 15,
+                    "right": 10,
+                    "bottom": 5,
+                    "left": 15
+                  },
+                  "child": {
+                    "type": "Image",
+                    "url": "https://ik.imagekit.io/jlqtebhzy/Phone%20(1).png?updatedAt=1759230517523",
+                    "width": 25,
+                    "height": 25
+                  }
+                },
+                {
+                  "type": "Column",
+                  "children": [
+
+                    {
+                      "type": "Text",
+                      "value": "Customer Care Number",
+                      "style": {
+                        "fontSize": 14,
+                        "color": "#4F4F4F",
+                        "fontWeight": "bold",
+                        "marginBottom": 10
+                      }
+                    },
+                    {
+                      "type": "Text",
+                      "value": "040-43431213 / 040-1221324849",
+                      "style": {
+                        "fontSize": 12,
+                        "color": "#4F4F4F"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+
+
+
+    ]
+  }
+
+
+
+}

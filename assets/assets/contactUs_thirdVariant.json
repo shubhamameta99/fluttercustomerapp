@@ -1,0 +1,374 @@
+{
+  "type": "Column",
+  "mainAxisAlignment": "Centre",
+  "children": [
+
+    {
+      "type": "Container",
+      "decoration": {
+        "gradient": {
+          "type": "linear",
+          "begin": "topLeft",
+          "end": "bottomRight",
+          "colors": ["#FF512F", "#FF4800"]
+        },
+        "borderRadius": 2
+      },
+      "padding": 20,
+      "child": {
+        "type": "Column",
+        "crossAxisAlignment": "start",
+        "children": [
+          {
+            "type": "Text",
+            "value": "Contact Us",
+            "style": {
+              "fontSize": 20,
+              "fontWeight": "bold",
+              "color": "#FFFFFF"
+            }
+          },
+          {
+            "type": "Text",
+            "value": "Reach out to us for any inquiry",
+            "style": {
+              "fontSize": 16,
+              "color": "#FDEDED"
+            }
+          },
+          {
+            "type": "SizedBox",
+            "height": 20
+          },
+          {
+            "type": "Row",
+            "crossAxisAlignment": "start",
+            "children": [
+              {
+                "type": "Container",
+                "padding": {
+                  "top": 10,
+                  "right": 10,
+                  "bottom": 5,
+                  "left": 15
+                },
+                "child": {
+                  "type": "Image",
+                  "url": "https://ik.imagekit.io/jlqtebhzy/Phone_location.png?updatedAt=1760090615566",
+                  "width": 25,
+                  "height": 25
+                }
+              },
+              {
+                "type": "SizedBox",
+                "width": 10
+              },
+              {
+                "type": "Column",
+                "crossAxisAlignment": "start",
+                "children": [
+                  {
+                    "type": "Text",
+                    "value": "Address",
+                    "style": {
+                      "fontSize": 14,
+                      "fontWeight": "bold",
+                      "color": "#FFFFFF"
+                    }
+                  },
+                  {
+                    "type": "Text",
+                    "value": "xyz travels, Near bus stop, kv nagar,\nBangalore, Karnataka",
+                    "style": {
+                      "fontSize": 12,
+                      "color": "#FDEDED"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "SizedBox",
+            "height": 16
+          },
+          {
+            "type": "Row",
+            "crossAxisAlignment": "start",
+            "children": [
+              {
+                "type": "Container",
+                "padding": {
+                  "top": 10,
+                  "right": 10,
+                  "bottom": 5,
+                  "left": 15
+                },
+                "child": {
+                  "type": "Image",
+                  "url": "https://ik.imagekit.io/jlqtebhzy/Phone.png?updatedAt=1760091456410",
+                  "width": 25,
+                  "height": 25
+                }
+              },
+              {
+                "type": "SizedBox",
+                "width": 10
+              },
+              {
+                "type": "Column",
+                "crossAxisAlignment": "start",
+                "children": [
+                  {
+                    "type": "Text",
+                    "value": "E-mail",
+                    "style": {
+                      "fontSize": 14,
+                      "fontWeight": "bold",
+                      "color": "#FFFFFF"
+                    }
+                  },
+                  {
+                    "type": "Text",
+                    "value": "feedback@travel.in",
+                    "style": {
+                      "fontSize": 12,
+                      "color": "#FDEDED"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "SizedBox",
+            "height": 16
+          },
+          {
+            "type": "Row",
+            "crossAxisAlignment": "start",
+            "children": [
+              {
+                "type": "Container",
+                "padding": {
+                  "top": 10,
+                  "right": 10,
+                  "bottom": 5,
+                  "left": 15
+                },
+                "child": {
+                  "type": "Image",
+                  "url": "https://ik.imagekit.io/jlqtebhzy/Phone%20(1).png?updatedAt=1760091476377",
+                  "width": 25,
+                  "height": 25
+                }
+              },
+              {
+                "type": "SizedBox",
+                "width": 10
+              },
+              {
+                "type": "Column",
+                "crossAxisAlignment": "start",
+                "children": [
+                  {
+                    "type": "Text",
+                    "value": "Customer Care Number",
+                    "style": {
+                      "fontSize": 14,
+                      "fontWeight": "bold",
+                      "color": "#FFFFFF"
+                    }
+                  },
+                  {
+                    "type": "Text",
+                    "value": "040-43431213 / 040-1221324849",
+                    "style": {
+                      "fontSize": 12,
+                      "color": "#FDEDED"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "Container",
+      "padding": {
+        "left": 16,
+        "top": 8,
+        "right": 16,
+        "bottom": 8
+      },
+      "child": {
+        "type": "Column",
+        "mainAxisAlignment": "Centre",
+        "children": [
+          {
+            "type": "SizedBox",
+            "height": 24
+          },
+          {
+            "type": "SizedBox",
+            "height": 50,
+            "child": {
+              "type": "InputField",
+              "label": "First Name",
+              "borderColor": "#CACED3",
+              "fontSize": 14,
+              "fontWeight": "normal",
+              "fontStyle": "normal",
+              "textColor": "#000000",
+              "hintColor": "#B0B6BE",
+              "letterSpacing": 0.5,
+              "wordSpacing": 1,
+              "enabled": true,
+              "borderRadius": 4,
+              "contentPadding": 16,
+              "filled": true,
+              "fillColor": "#FFFFFF"
+            }
+          },
+          {
+            "type": "SizedBox",
+            "height": 14
+          },
+          {
+            "type": "SizedBox",
+            "height": 50,
+            "child": {
+              "type": "InputField",
+              "label": "Last Name",
+              "borderColor": "#CACED3",
+              "fontSize": 14,
+              "fontWeight": "normal",
+              "fontStyle": "normal",
+              "textColor": "#000000",
+              "hintColor": "#B0B6BE",
+              "letterSpacing": 0.5,
+              "wordSpacing": 1,
+              "enabled": true,
+              "borderRadius": 12,
+              "contentPadding": 16,
+              "filled": true,
+              "fillColor": "#FFFFFF"
+            }
+          },
+          {
+            "type": "SizedBox",
+            "height": 14
+          },
+          {
+            "type": "SizedBox",
+            "height": 50,
+            "child": {
+              "type": "InputField",
+              "label": "Email",
+              "borderColor": "#CACED3",
+              "fontSize": 14,
+              "fontWeight": "normal",
+              "fontStyle": "normal",
+              "textColor": "#000000",
+              "hintColor": "#B0B6BE",
+              "letterSpacing": 0.5,
+              "maxLines": 5,
+              "wordSpacing": 1,
+              "enabled": true,
+              "borderRadius": 12,
+              "contentPadding": 16,
+              "filled": true,
+              "fillColor": "#FFFFFF"
+            }
+          },
+          {
+            "type": "SizedBox",
+            "height": 14
+          },
+          {
+            "type": "SizedBox",
+            "height": 50,
+            "child": {
+              "type": "InputField",
+              "label": "Phone Number",
+              "borderColor": "#CACED3",
+              "fontSize": 14,
+              "fontWeight": "normal",
+              "fontStyle": "normal",
+              "textColor": "#000000",
+              "hintColor": "#B0B6BE",
+              "letterSpacing": 0.5,
+              "wordSpacing": 1,
+              "enabled": true,
+              "borderRadius": 12,
+              "contentPadding": 16,
+              "filled": true,
+              "fillColor": "#FFFFFF"
+            }
+          },
+          {
+            "type": "SizedBox",
+            "height": 14
+          },
+          {
+            "type": "SizedBox",
+            "height": 50,
+            "child": {
+              "type": "InputField",
+              "label": "Message",
+              "borderColor": "#CACED3",
+              "fontSize": 14,
+              "fontWeight": "normal",
+              "fontStyle": "normal",
+              "textColor": "#000000",
+              "hintColor": "#B0B6BE",
+              "letterSpacing": 0.5,
+              "wordSpacing": 1,
+              "enabled": true,
+              "borderRadius": 12,
+              "contentPadding": 16,
+              "filled": true,
+              "fillColor": "#FFFFFF"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "Container",
+      "padding": {
+        "left": 16,
+        "top": 8,
+        "right": 16,
+        "bottom": 8
+      },
+      "child": {
+        "type": "Column",
+        "mainAxisAlignment": "Centre",
+        "children": [
+          {
+            "type": "Padding",
+            "padding": {
+              "top": 8
+            },
+            "child": {
+              "type": "Button",
+              "label": "Send Enquiry",
+              "color": "#FF573C",
+              "height": 50,
+              "fontSize": 14,
+              "fontWeight": "bold",
+              "width": "match_parent",
+              "textColor": "#FFFFFF",
+              "borderRadius": 10
+
+            }
+          }
+        ]
+      }
+    }
+
+  ]
+}

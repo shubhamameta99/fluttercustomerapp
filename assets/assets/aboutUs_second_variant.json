@@ -1,0 +1,297 @@
+{
+  "type": "Column",
+  "mainAxisAlignment": "start",
+  "mainAxisSize": "max",
+  "children": [
+    {
+      "type": "Stack",
+      "alignment": "topCenter",
+      "children": [
+        {
+          "type": "Image",
+          "url": "https://ik.imagekit.io/jlqtebhzy/bg.jpg?updatedAt=1759912805568",
+          "fit": "cover",
+          "width": "match_parent",
+          "height": 350
+        },
+        {
+          "type": "Padding",
+          "padding": {
+            "top": 180,
+            "left": 16,
+            "right": 16
+          },
+          "child": {
+            "type": "Container",
+            "width": "match_parent",
+            "height": 160,
+            "padding": {
+              "left": 30,
+              "right": 36,
+              "top": 0,
+              "bottom": 30
+            },
+            "decoration": {
+              "color": "#FFFFFF",
+              "borderRadius": 4
+            },
+            "child": {
+              "type": "Column",
+              "crossAxisAlignment": "start",
+              "children": [
+                {
+                  "type": "Text",
+                  "value": "ABOUT",
+                  "padding": {
+                    "left": 30,
+                    "right": 36,
+                    "top": 20,
+                    "bottom": 10
+                  },
+                  "style": {
+                    "fontSize": 22,
+                    "fontWeight": "bold",
+                    "color": "#202124"
+                  }
+                },
+
+                {
+                  "type": "Text",
+                  "value": "See how we go an extra mile to give you best experience",
+                  "padding": {
+                    "left": 30,
+                    "right": 36,
+                    "bottom": 20
+                  },
+                  "style": {
+                    "fontSize": 16,
+                    "fontWeight": "normal",
+                    "color": "#FF2D55"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "width": "match_parent",
+      "padding": {
+        "top": 30,
+        "left": 24,
+        "right": 24,
+        "bottom": 20
+      },
+      "decoration": {
+        "color": "#FF4B4B"
+      },
+      "child": {
+        "type": "Column",
+        "crossAxisAlignment": "start",
+        "children": [
+          {
+            "type": "Text",
+            "value": "Who We Are?",
+            "style": {
+              "fontSize": 20,
+              "fontWeight": "bold",
+              "color": "#FFFFFF"
+            },
+            "padding": {
+              "bottom": 10
+            }
+          },
+          {
+            "type": "Text",
+            "value": "We are a leading bus service provider committed to delivering safe, reliable, and comfortable travel experiences. With a fleet of modern buses and a focus on customer satisfaction, we ensure seamless journeys to a variety of destinations, offering convenient schedules and affordable options for all our passengers.",
+            "style": {
+              "fontSize": 15,
+              "color": "#FFFFFF"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "Container",
+      "width": "match_parent",
+      "padding": {
+        "top": 30,
+        "left": 24,
+        "right": 24,
+        "bottom": 30
+      },
+      "decoration": {
+        "color": "#081C5B"
+      },
+      "child": {
+        "type": "Column",
+        "crossAxisAlignment": "start",
+        "children": [
+          {
+            "type": "Text",
+            "value": "Our Vision",
+            "style": {
+              "fontSize": 20,
+              "fontWeight": "bold",
+              "color": "#FFFFFF"
+            },
+            "padding": {
+              "bottom": 10
+            }
+          },
+          {
+            "type": "Text",
+            "value": "Our vision is to revolutionize travel by providing accessible, efficient, and eco-friendly bus services that connect people to their destinations safely and comfortably. We strive to be the trusted choice for travelers, fostering a seamless and enjoyable journey with every ride.",
+            "style": {
+              "fontSize": 15,
+              "color": "#FFFFFF"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "Padding",
+      "padding": 20,
+      "child": {
+        "type": "Column",
+        "crossAxisAlignment": "start",
+        "children": [
+          {
+            "type": "Text",
+            "value": "Management Team",
+            "style": {
+              "fontSize": 20,
+              "fontWeight": "bold",
+              "color": "#202124"
+            }
+          },
+          {
+            "type": "SizedBox",
+            "height": 20
+          },
+          {
+            "type": "Column",
+            "crossAxisAlignment": "start",
+            "children": [
+              {
+                "type": "Image",
+                "url": "https://ik.imagekit.io/jlqtebhzy/Gokarna.png?updatedAt=1759169980076",
+                "fit": "cover",
+                "width": "match_parent",
+                "height": 350
+              },
+              {
+                "type": "SizedBox",
+                "height": 12
+              },
+              {
+                "type": "Text",
+                "value": "Rahul S.",
+                "style": {
+                  "fontSize": 14,
+                  "fontWeight": "bold",
+                  "color": "#202124"
+                }
+              },
+              {
+                "type": "Text",
+                "value": "Our CEO is a visionary leader with a deep passion for transforming the transportation industry. With years of experience in business management and a commitment to customer-centric innovation, they have led our company to new heights. Their strategic insights and dedication to excellence drive the company’s mission of providing safe, efficient, and sustainable travel solutions. Under their leadership, the company continues to expand its reach, improve services, and prioritize both environmental responsibility and passenger satisfaction. They are committed to fostering a culture of growth, collaboration, and continuous improvement.",
+                "style": {
+                  "fontSize": 12,
+                  "color": "#5F6772"
+                },
+                "textAlign": "start",
+                "softWrap": true
+              }
+            ]
+          },
+          {
+            "type": "SizedBox",
+            "height": 24
+          },
+          {
+            "type": "Column",
+            "crossAxisAlignment": "start",
+            "children": [
+              {
+                "type": "Image",
+                "url": "https://ik.imagekit.io/jlqtebhzy/cto.jpg?updatedAt=1759920754063",
+                "fit": "cover",
+                "width": "match_parent",
+                "height": 350
+              },
+              {
+                "type": "SizedBox",
+                "height": 12
+              },
+              {
+                "type": "Text",
+                "value": "Mohan Kumar, CTO",
+                "style": {
+                  "fontSize": 14,
+                  "fontWeight": "bold",
+                  "color": "#202124"
+                }
+              },
+              {
+                "type": "Text",
+                "value": "Our CTO brings unparalleled technical expertise and a relentless drive for innovation. With a strong background in engineering and system architecture, Mohan is the backbone of our tech infrastructure. His leadership ensures our digital platforms remain scalable, secure, and user-friendly. He champions data-driven decisions and fosters a team culture focused on solving real-world transportation challenges with cutting-edge technology.",
+                "style": {
+                  "fontSize": 12,
+                  "color": "#5F6772"
+                },
+                "textAlign": "start",
+                "softWrap": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+
+
+    {
+      "type": "Column",
+      "crossAxisAlignment": "start",
+      "children": [
+        {
+          "type": "Image",
+          "url": "https://ik.imagekit.io/jlqtebhzy/slider2.jpg?updatedAt=1759312450155",
+          "fit": "cover",
+          "width": "match_parent",
+          "height": 350
+        },
+        {
+          "type": "SizedBox",
+          "height": 20
+        },
+        {
+          "type": "Text",
+          "value": "PHOTO GALLERY",
+          "style": {
+            "fontSize": 20,
+            "color": "#202124"
+          }
+        },
+        {
+          "type": "SizedBox",
+          "height": 20
+        },
+        {
+          "type": "Text",
+          "value": "See how we go an extra mile to give you best experience",
+          "style": {
+            "fontSize": 20,
+            "color": "#FF573C"
+          }
+        }
+      ]
+    }
+
+
+  ]
+}

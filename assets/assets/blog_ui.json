@@ -1,0 +1,366 @@
+{
+  "type": "Column",
+  "mainAxisAlignment": "start",
+  "mainAxisSize": "max",
+  "children": [
+    {
+      "type":"Stack",
+    "alignment": "center",
+      "children": [{
+        "type": "Image",
+        "url": "https://ik.imagekit.io/jlqtebhzy/blog.jpg?updatedAt=1759303047731",
+        "fit": "cover",
+        "width": "match_parent",
+        "height": 300
+      },
+        {
+          "type": "Center",
+          "left": 50,
+          "right": 50,
+          "top": 100,
+          "bottom": 100,
+          "child": {
+            "type": "Column",
+            "crossAxisAlignment": "center",
+            "children": [
+              {
+                "type": "Text",
+                "value": "Blog",
+                "style": {
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                  "color": "#FFFFFF"
+                }
+              },
+              {
+                "type": "Text",
+                "value": "See how we go an extra mile to,\n give you best experience",
+                "style": {
+                  "fontSize": 14,
+                  "fontWeight": "bold",
+                  "color": "#FF573C"
+                }
+              }
+            ]
+          }
+        }
+
+      ]
+    },
+    {
+      "type": "Column",
+      "crossAxisAlignment": "start",
+      "children": [
+        {
+          "type": "SizedBox",
+          "height": 10
+        },
+        {
+          "type": "Image",
+          "url": "https://ik.imagekit.io/jlqtebhzy/About%20us.png?updatedAt=1759303997900",
+          "fit": "cover",
+          "width": "match_parent",
+          "height": 300
+        },
+        {
+          "type": "SizedBox",
+          "height": 10
+        },
+        { "type": "Padding",
+          "padding": {
+            "top": 15,
+            "right": 10,
+            "bottom": 5,
+            "left": 15
+          },
+          "child": {
+          "type": "Text",
+          "value": "Introduction",
+          "style": {
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "color": "#202124"
+          }
+          }
+        },
+        {
+          "type": "SizedBox",
+          "height": 10
+        },
+        {
+          "type": "Padding",
+          "padding": {
+            "right": 10,
+            "bottom": 5,
+            "left": 15
+          },
+          "child": {
+            "type": "Text",
+            "value": "We are a leading bus service provider committed to delivering safe, reliable, and comfortable travel experiences. With a fleet of modern buses and a focus on customer satisfaction, we ensure seamless journeys to a variety of destinations, offering convenient schedules and affordable options for all our passengers.",
+            "style": {
+              "fontSize": 14,
+              "color": "#323841"
+            },
+            "softWrap": true
+          }
+        },
+        {
+          "type": "SizedBox",
+          "height": 10
+        },
+        {
+          "type": "Image",
+          "url": "https://ik.imagekit.io/jlqtebhzy/About%20us.png?updatedAt=1759305495296",
+          "fit": "cover",
+          "width": "match_parent",
+          "height": 300
+        },
+        {
+          "type": "SizedBox",
+          "height": 10
+        },
+        { "type": "Padding",
+          "padding": {
+            "top": 15,
+            "right": 10,
+            "bottom": 5,
+            "left": 15
+          },
+          "child": {
+            "type": "Text",
+            "value": "Introduction",
+            "style": {
+              "fontSize": 20,
+              "fontWeight": "bold",
+              "color": "#202124"
+            }
+          }
+        },
+        {
+          "type": "SizedBox",
+          "height": 10
+        },
+        {
+          "type": "Padding",
+          "padding": {
+            "right": 10,
+            "bottom": 5,
+            "left": 15
+          },
+          "child": {
+            "type": "Text",
+            "value": "We are a leading bus service provider committed to delivering safe, reliable, and comfortable travel experiences. With a fleet of modern buses and a focus on customer satisfaction, we ensure seamless journeys to a variety of destinations, offering convenient schedules and affordable options for all our passengers.",
+            "style": {
+              "fontSize": 14,
+              "color": "#323841"
+            },
+            "softWrap": true
+          }
+        },
+        {
+          "type": "SizedBox",
+          "height": 10
+        }
+      ]
+    },
+    {
+
+      "type": "Column",
+      "crossAxisAlignment": "start",
+      "children": [
+
+        { "type": "Padding",
+          "padding": {
+            "top": 15,
+            "right": 10,
+            "left": 15
+          },
+          "child": {
+            "type": "Text",
+            "value": "Photos",
+            "style": {
+              "fontSize": 20,
+              "fontWeight": "bold",
+              "color": "#202124"
+            }
+          }
+        },
+
+        { "type": "Padding",
+          "padding": {
+            "top": 5,
+            "right": 10,
+            "left": 15
+          },
+          "child": {
+            "type": "Text",
+            "value": "Have a look at all our luxury buses",
+            "style": {
+              "fontSize": 12,
+              "fontWeight": "bold",
+              "color": "#FF573C"
+            },
+            "softWrap": true
+          }
+        },
+        {
+          "type": "BannerSlider",
+          "height": 200,
+          "images": [
+            "https://ik.imagekit.io/jlqtebhzy/slider4.jpg?updatedAt=1759312474791",
+            "https://ik.imagekit.io/jlqtebhzy/slider2.jpg?updatedAt=1759312450155",
+            "https://ik.imagekit.io/jlqtebhzy/slider1.jpg?updatedAt=1759312429428",
+            "https://ik.imagekit.io/jlqtebhzy/slider.jpg?updatedAt=1759312404330"
+          ],
+          "autoPlay": true,
+          "interval": 1000,
+          "viewportFraction": 0.65,
+          "imagePadding": 10.0,
+          "fit": "contain"
+        }
+      ]
+    },
+    {
+
+      "type": "Column",
+      "crossAxisAlignment": "start",
+      "children": [
+
+        { "type": "Padding",
+          "padding": {
+            "top": 15,
+            "right": 10,
+            "left": 15
+          },
+          "child": {
+            "type": "Text",
+            "value": "More Blogs",
+            "style": {
+              "fontSize": 20,
+              "fontWeight": "bold",
+              "color": "#202124"
+            }
+          }
+        },
+
+        {
+          "type": "Padding",
+          "padding": {
+            "top": 5,
+            "right": 10,
+            "left": 15
+          },
+          "child": {
+            "type": "Text",
+            "value": "Have a look at all our luxury buses",
+            "style": {
+              "fontSize": 12,
+              "fontWeight": "bold",
+              "color": "#FF573C"
+            },
+            "softWrap": true
+          }
+        },
+        {
+          "type": "SizedBox",
+          "height": 10
+        },
+        {
+          "type": "Image",
+          "url": "https://ik.imagekit.io/jlqtebhzy/About%20us.png?updatedAt=1759305495296",
+          "fit": "cover",
+          "width": "match_parent",
+          "height": 200
+        },
+        {
+          "type": "SizedBox",
+          "height": 10
+        },
+        {
+          "type": "Padding",
+          "padding": {
+            "right": 10,
+            "bottom": 5,
+            "left": 15
+          },
+          "child": {
+            "type": "Text",
+            "value": "Introduction",
+            "style": {
+              "fontSize": 20,
+              "fontWeight": "bold",
+              "color": "#202124"
+            }
+          }
+        },
+        {
+          "type": "Padding",
+          "padding": {
+            "right": 10,
+            "bottom": 5,
+            "left": 15
+          },
+          "child": {
+            "type": "Text",
+            "value": "We are a leading bus service provider committed to delivering safe",
+            "style": {
+              "fontSize": 14,
+              "color": "#323841"
+            },
+            "softWrap": true
+          }
+        },
+        {
+          "type": "Image",
+          "url": "https://ik.imagekit.io/jlqtebhzy/About%20us.png?updatedAt=1759303997900",
+          "fit": "cover",
+          "width": "match_parent",
+          "height": 200
+        },
+        {
+          "type": "SizedBox",
+          "height": 10
+        },
+        {
+          "type": "Padding",
+          "padding": {
+            "right": 10,
+            "bottom": 5,
+            "left": 15
+          },
+          "child": {
+          "type": "Text",
+          "value": "Introduction",
+          "style": {
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "color": "#202124"
+          }
+          }
+        },
+        {
+          "type": "SizedBox",
+          "height": 10
+        },
+        {
+          "type": "Padding",
+          "padding": {
+            "right": 10,
+            "bottom": 5,
+            "left": 15
+          },
+          "child": {
+            "type": "Text",
+            "value": "We are a leading bus service provider committed to delivering safe",
+            "style": {
+              "fontSize": 14,
+              "color": "#323841"
+            },
+            "softWrap": true
+          }
+        }
+      ]
+    }
+
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "type": "Column",
+  "crossAxisAlignment": "center",
+  "children": [
+    {
+      "type": "Padding",
+      "padding": {
+        "left": 50,
+        "right": 50,
+        "top": 20,
+        "bottom": 0
+      },
+      "child": {
+        "type": "Text",
+        "value": "Why Choose Us?",
+        "textAlign": "center",
+        "style": {
+          "fontSize": 20,
+          "fontWeight": "bold",
+          "fontStyle": "normal",
+          "color": "#000000",
+          "letterSpacing": 1.2,
+          "wordSpacing": 2
+        }
+      }
+    },
+    {
+      "type": "Padding",
+      "padding": {
+        "left": 50,
+        "right": 50,
+        "top": 0,
+        "bottom": 20
+      },
+      "child": {
+        "type": "Text",
+        "value": "See how we go an extra mile to give you best experience",
+        "textAlign": "center",
+        "style": {
+          "fontSize": 14,
+          "fontWeight": "bold",
+          "fontStyle": "normal",
+          "color": "#FF573C",
+          "letterSpacing": 1.2,
+          "wordSpacing": 2
+        }
+      }
+    },
+    {
+      "type": "Padding",
+      "padding": 16,
+      "child": {
+        "type": "ListView",
+        "children": [
+          {
+            "type": "Container",
+            "color": "#FFFFFF",
+            "borderRadius": 15,
+            "borderColor": "#CACED3",
+            "borderWidth": 1,
+            "child": {
+              "type": "Padding",
+              "padding": 20,
+              "child": {
+                "type": "Column",
+                "crossAxisAlignment": "start",
+                "children": [
+                  {
+                    "type": "Image",
+                    "url": "https://ik.imagekit.io/ekpuecrvih/real-time%201.png?updatedAt=1752753485241",
+                    "height": 50,
+                    "width": 50
+                  },
+                  {
+                    "type": "SizedBox",
+                    "height": 8
+                  },
+                  {
+                    "type": "Text",
+                    "value": "Customer Gratification",
+                    "textAlign": "start",
+                    "style": {
+                      "fontSize": 14,
+                      "fontWeight": "bold",
+                      "color": "#000000",
+                      "wordSpacing": 2
+                    }
+                  },
+                  {
+                    "type": "SizedBox",
+                    "height": 6
+                  },
+                  {
+                    "type": "Text",
+                    "value": "We value our customer smiles over anything else, and offer services that go beyond industry standards.",
+                    "textAlign": "start",
+                    "style": {
+                      "fontSize": 12,
+                      "fontStyle": "normal",
+                      "color": "#000000",
+                      "letterSpacing": 1.2,
+                      "wordSpacing": 2
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "type": "SizedBox",
+            "height": 20
+          },
+          {
+            "type": "Container",
+            "color": "#FFFFFF",
+            "borderRadius": 15,
+            "borderColor": "#CACED3",
+            "borderWidth": 1,
+            "child": {
+              "type": "Padding",
+              "padding": 20,
+              "child": {
+                "type": "Column",
+                "crossAxisAlignment": "start",
+                "children": [
+                  {
+                    "type": "Image",
+                    "url": "https://ik.imagekit.io/ekpuecrvih/real-time%201.png?updatedAt=1752753485241",
+                    "height": 50,
+                    "width": 50
+                  },
+                  {
+                    "type": "SizedBox",
+                    "height": 8
+                  },
+                  {
+                    "type": "Text",
+                    "value": "Privacy First",
+                    "textAlign": "start",
+                    "style": {
+                      "fontSize": 14,
+                      "fontWeight": "bold",
+                      "color": "#000000",
+                      "wordSpacing": 2
+                    }
+                  },
+                  {
+                    "type": "SizedBox",
+                    "height": 6
+                  },
+                  {
+                    "type": "Text",
+                    "value": "Your privacy is of utmost importance to us! Rest assured, your personal details are safe with us, no matter what.",
+                    "textAlign": "start",
+                    "style": {
+                      "fontSize": 12,
+                      "fontStyle": "normal",
+                      "color": "#000000",
+                      "letterSpacing": 1.2,
+                      "wordSpacing": 2
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "Stack",
+  "width": "match_parent",
+  "height": "match_parent",
+  "children": [
+    {
+      "type": "Image",
+      "url": "https://ik.imagekit.io/ekpuecrvih/Download%20app.png?updatedAt=1757962794176",
+      "height": "match_parent",
+      "width":"match_parent",
+      "fit": "cover",
+      "borderRadius": 0
+    },
+    {
+      "type": "Center",
+      "child": {
+        "type": "Image",
+        "url": "https://ik.imagekit.io/ekpuecrvih/20250915_2142_Gradient%20Circular%20Logo_simple_compose_01k572c6vmf60trm5vg4h5enm6.png?updatedAt=1757952830280",
+        "height": 320,
+        "width": 320,
+        "fit": "cover",
+        "borderRadius": 200
+      }
+    }
+  ]
+}
